@@ -1,0 +1,1350 @@
+﻿2020-07-26 22:45:55.316 T:1902244704  NOTICE: -----------------------------------------------------------------------
+2020-07-26 22:45:55.316 T:1902244704  NOTICE: Starting Kodi (18.2 Git:20190428-a94ccc8ba5). Platform: Linux ARM 32-bit
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: Using Release Kodi x32 build (version for Raspberry Pi)
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: Kodi compiled 2019-04-30 by GCC 6.3.0 for Linux ARM 32-bit version 4.9.82 (264530)
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: Running on Raspbian GNU/Linux 9 (stretch), kernel: Linux ARM 32-bit version 5.4.42-v7+
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: FFmpeg version/source: 4.0.3-Kodi
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: Host CPU: ARMv7 Processor rev 4 (v7l), 4 cores available
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: ARM Features: Neon enabled
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: special://xbmc/ is mapped to: /usr/share/kodi
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: special://xbmcbin/ is mapped to: /usr/lib/arm-linux-gnueabihf/kodi
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: special://xbmcbinaddons/ is mapped to: /usr/lib/arm-linux-gnueabihf/kodi/addons
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: special://masterprofile/ is mapped to: /home/pi/.kodi/userdata
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: special://envhome/ is mapped to: /home/pi
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: special://home/ is mapped to: /home/pi/.kodi
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: special://temp/ is mapped to: /home/pi/.kodi/temp
+2020-07-26 22:45:55.317 T:1902244704  NOTICE: special://logpath/ is mapped to: /home/pi/.kodi/temp
+2020-07-26 22:45:55.318 T:1902244704  NOTICE: The executable running is: /usr/lib/arm-linux-gnueabihf/kodi/kodi-rbpi_v7
+2020-07-26 22:45:55.318 T:1902244704  NOTICE: Local hostname: Rosenbauer_3D_printer
+2020-07-26 22:45:55.318 T:1902244704  NOTICE: Log File is located: /home/pi/.kodi/temp/kodi.log
+2020-07-26 22:45:55.318 T:1902244704  NOTICE: -----------------------------------------------------------------------
+2020-07-26 22:45:55.318 T:1902244704    INFO: loading settings
+2020-07-26 22:45:55.319 T:1902244704  NOTICE: special://profile/ is mapped to: special://masterprofile/
+2020-07-26 22:45:55.354 T:1902244704   DEBUG: CSkinSettings: no <skinsettings> tag found
+2020-07-26 22:45:55.357 T:1902244704  NOTICE: Loaded settings file from special://xbmc/system/advancedsettings.xml
+2020-07-26 22:45:55.357 T:1902244704  NOTICE: Contents of special://xbmc/system/advancedsettings.xml are...
+                                            <?xml version="1.0" encoding="UTF-8" ?>
+                                            <advancedsettings>
+                                              <fanartres>720</fanartres>
+                                              <imageres>540</imageres>
+                                              <video>
+                                                <busydialogdelayms>750</busydialogdelayms>
+                                              </video>
+                                              <samba>
+                                                <clienttimeout>30</clienttimeout>
+                                              </samba>
+                                              <cache>
+                                                <memorysize>31457280</memorysize>
+                                              </cache>
+                                            </advancedsettings>
+2020-07-26 22:45:55.357 T:1902244704 WARNING: CSettingsManager: missing version attribute
+2020-07-26 22:45:55.359 T:1902244704  NOTICE: No settings file to load (special://masterprofile/advancedsettings.xml)
+2020-07-26 22:45:55.359 T:1902244704  NOTICE: Default Video Player: VideoPlayer
+2020-07-26 22:45:55.359 T:1902244704  NOTICE: Default Audio Player: paplayer
+2020-07-26 22:45:55.359 T:1902244704  NOTICE: Enabled debug logging due to GUI setting (2)
+2020-07-26 22:45:55.359 T:1902244704  NOTICE: Log level changed to "LOG_LEVEL_DEBUG_FREEMEM"
+2020-07-26 22:45:55.361 T:1902244704    INFO: creating subdirectories
+2020-07-26 22:45:55.362 T:1902244704    INFO: userdata folder: special://masterprofile/
+2020-07-26 22:45:55.362 T:1902244704    INFO: recording folder:
+2020-07-26 22:45:55.362 T:1902244704    INFO: screenshots folder:
+2020-07-26 22:45:55.443 T:1902244704   DEBUG: DllBcm: Using omx system library
+2020-07-26 22:45:55.444 T:1892676320   DEBUG: Thread Lirc start, auto delete: false
+2020-07-26 22:45:55.444 T:1892676320    INFO: Loading special://xbmc/system/Lircmap.xml
+2020-07-26 22:45:55.444 T:1882190560   DEBUG: Thread libinput start, auto delete: false
+2020-07-26 22:45:55.447 T:1902244704  NOTICE: Running database version Addons27
+2020-07-26 22:45:55.448 T:1892676320    INFO: * Adding remote mapping for device 'mceusb'
+2020-07-26 22:45:55.449 T:1892676320    INFO: * Adding remote mapping for device 'XboxDVDDongle'
+2020-07-26 22:45:55.449 T:1892676320    INFO: * Adding remote mapping for device 'Microsoft_Xbox'
+2020-07-26 22:45:55.449 T:1892676320    INFO: * Adding remote mapping for device 'PinnacleSysPCTVRemote'
+2020-07-26 22:45:55.449 T:1892676320    INFO: * Adding remote mapping for device 'anysee'
+2020-07-26 22:45:55.449 T:1892676320    INFO: * Adding remote mapping for device 'iMON-PAD'
+2020-07-26 22:45:55.449 T:1892676320    INFO: * Adding remote mapping for device 'Antec_Veris_RM200'
+2020-07-26 22:45:55.449 T:1892676320    INFO: * Adding remote mapping for device 'MCE_via_iMON'
+2020-07-26 22:45:55.449 T:1892676320    INFO: * Adding remote mapping for device 'TwinHanRemote'
+2020-07-26 22:45:55.450 T:1892676320    INFO: * Adding remote mapping for device 'linux-input-layer'
+2020-07-26 22:45:55.450 T:1892676320    INFO: * Linking remote mapping for 'linux-input-layer' to 'cx23885_remote'
+2020-07-26 22:45:55.450 T:1892676320    INFO: * Adding remote mapping for device 'mediacenter'
+2020-07-26 22:45:55.450 T:1892676320    INFO: * Adding remote mapping for device 'devinput'
+2020-07-26 22:45:55.450 T:1892676320    INFO: * Adding remote mapping for device 'devinput-32'
+2020-07-26 22:45:55.450 T:1892676320    INFO: * Adding remote mapping for device 'devinput-64'
+2020-07-26 22:45:55.451 T:1892676320   DEBUG: CIRTranslator::Load - no userdata Lircmap.xml found, skipping
+2020-07-26 22:45:55.484 T:1902244704    INFO: ADDON: cpluff: 'Could not read plug-in directory /usr/lib/arm-linux-gnueabihf/kodi/addons: No such file or directory'
+2020-07-26 22:45:55.484 T:1902244704   DEBUG: ADDON: cpluff: 'Not all directories were successfully scanned.'
+2020-07-26 22:45:55.484 T:1902244704  NOTICE: ADDON: audioencoder.kodi.builtin.aac v1.0.0 installed
+2020-07-26 22:45:55.484 T:1902244704  NOTICE: ADDON: audioencoder.kodi.builtin.wma v1.0.0 installed
+2020-07-26 22:45:55.484 T:1902244704  NOTICE: ADDON: game.controller.default v1.0.8 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: game.controller.snes v1.0.8 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: inputstream.adaptive v2.3.17 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.global.audioengine v1.0.1 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.global.filesystem v1.0.2 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.global.general v1.0.3 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.global.gui v5.12.0 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.global.main v1.0.14 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.global.network v1.0.0 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.instance.audiodecoder v2.0.0 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.instance.audioencoder v2.0.0 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.instance.game v1.1.0 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.instance.imagedecoder v2.0.0 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.instance.inputstream v2.0.8 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.instance.peripheral v1.3.7 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.instance.pvr v5.10.3 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.instance.screensaver v2.0.0 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.instance.vfs v2.0.0 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.instance.videocodec v1.0.1 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.binary.instance.visualization v2.0.1 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: kodi.resource v1.0.0 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: metadata.album.universal v3.1.3 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: metadata.artists.universal v4.3.3 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: metadata.common.allmusic.com v3.2.2 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: metadata.common.fanart.tv v3.6.3 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: metadata.common.imdb.com v3.1.5 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: metadata.common.musicbrainz.org v2.2.4 installed
+2020-07-26 22:45:55.485 T:1902244704  NOTICE: ADDON: metadata.common.theaudiodb.com v2.0.3 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: metadata.common.themoviedb.org v3.2.3 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: metadata.local v1.0.0 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: metadata.themoviedb.org v5.2.0 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: metadata.tvshows.themoviedb.org v3.5.3 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: plugin.video.netflix v1.6.0 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: repository.castagnait v1.0.1 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: repository.xbmc.org v3.1.5 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: resource.images.weathericons.default v1.1.8 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: resource.language.en_gb v2.0.1 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: resource.uisounds.kodi v1.0.0 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: screensaver.xbmc.builtin.black v1.0.32 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: screensaver.xbmc.builtin.dim v1.0.54 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: script.module.addon.signals v0.0.5 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: script.module.certifi v2019.9.11 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: script.module.chardet v3.0.4 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: script.module.future v0.17.1 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: script.module.idna v2.8 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: script.module.inputstreamhelper v0.5.0 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: script.module.pil v1.1.7 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: script.module.pycryptodome v3.4.3 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: script.module.requests v2.22.0 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: script.module.urllib3 v1.25.6 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: service.xbmc.versioncheck v0.5.5 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: skin.estouchy v2.0.23 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: skin.estuary v2.0.22 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: webinterface.default v18.x-2.4.6 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: xbmc.addon v18.2.0 installed
+2020-07-26 22:45:55.486 T:1902244704  NOTICE: ADDON: xbmc.core v0.1.0 installed
+2020-07-26 22:45:55.487 T:1902244704  NOTICE: ADDON: xbmc.gui v5.14.0 installed
+2020-07-26 22:45:55.487 T:1902244704  NOTICE: ADDON: xbmc.json v10.3.0 installed
+2020-07-26 22:45:55.487 T:1902244704  NOTICE: ADDON: xbmc.metadata v2.1.0 installed
+2020-07-26 22:45:55.487 T:1902244704  NOTICE: ADDON: xbmc.python v2.26.0 installed
+2020-07-26 22:45:55.487 T:1902244704  NOTICE: ADDON: xbmc.webinterface v1.0.0 installed
+2020-07-26 22:45:55.541 T:1902244704   DEBUG: CFavourites::Load - no system favourites found, skipping
+2020-07-26 22:45:55.541 T:1902244704   DEBUG: CFavourites::Load - no userdata favourites found, skipping
+2020-07-26 22:45:55.544 T:1902244704   DEBUG: DBus method call to org.freedesktop.ConsoleKit.Manager.CanStop at /org/freedesktop/ConsoleKit/Manager of org.freedesktop.ConsoleKit failed: org.freedesktop.DBus.Error.ServiceUnknown - The name org.freedesktop.ConsoleKit was not provided by any .service files
+2020-07-26 22:45:55.545 T:1902244704    INFO: Selected Logind/UPower as PowerSyscall
+2020-07-26 22:45:55.545 T:1902244704   ERROR: DBus error: org.freedesktop.DBus.Error.ServiceUnknown - The name org.freedesktop.UPower was not provided by any .service files
+2020-07-26 22:45:55.545 T:1902244704    INFO: LogindUPowerSyscall - UPower not found, battery information will not be available
+2020-07-26 22:45:55.575 T:1902244704   DEBUG: LogindUPowerSyscall - inhibit lock taken, fd 21
+2020-07-26 22:45:55.579 T:1902244704   DEBUG: DBus method call to org.freedesktop.UPower.EnumerateDevices at /org/freedesktop/UPower of org.freedesktop.UPower failed: org.freedesktop.DBus.Error.ServiceUnknown - The name org.freedesktop.UPower was not provided by any .service files
+2020-07-26 22:45:55.579 T:1871704800   DEBUG: Thread ActiveAE start, auto delete: false
+2020-07-26 22:45:55.579 T:1861219040   DEBUG: Thread AESink start, auto delete: false
+2020-07-26 22:45:55.580 T:1850733280   DEBUG: Thread FDEventMonitor start, auto delete: false
+2020-07-26 22:45:55.592 T:1871704800    INFO: CAESinkALSA - Unable to open device "surround71" for playback
+2020-07-26 22:45:55.593 T:1871704800    INFO: CAESinkALSA - Unable to open device "surround51" for playback
+2020-07-26 22:45:55.593 T:1871704800    INFO: CAESinkALSA - Unable to open device "surround71" for playback
+2020-07-26 22:45:55.594 T:1871704800    INFO: CAESinkALSA - Unable to open device "surround40" for playback
+2020-07-26 22:45:55.594 T:1871704800    INFO: CAESinkALSA - Unable to open device "surround51" for playback
+2020-07-26 22:45:55.594 T:1871704800    INFO: CAESinkALSA - Unable to open device "surround71" for playback
+2020-07-26 22:45:55.622 T:1871704800  NOTICE: Found 2 Lists of Devices
+2020-07-26 22:45:55.622 T:1871704800  NOTICE: Enumerated ALSA devices:
+2020-07-26 22:45:55.622 T:1871704800  NOTICE:     Device 1
+2020-07-26 22:45:55.622 T:1871704800  NOTICE:         m_deviceName      : @
+2020-07-26 22:45:55.622 T:1871704800  NOTICE:         m_displayName     : Default (bcm2835 HDMI 1 bcm2835 HDMI 1)
+2020-07-26 22:45:55.622 T:1871704800  NOTICE:         m_displayNameExtra:
+2020-07-26 22:45:55.622 T:1871704800  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2020-07-26 22:45:55.622 T:1871704800  NOTICE:         m_channels        : FL, FR
+2020-07-26 22:45:55.622 T:1871704800  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000
+2020-07-26 22:45:55.622 T:1871704800  NOTICE:         m_dataFormats     : AE_FMT_S16NE,AE_FMT_S16LE,AE_FMT_U8
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_streamTypes     : No passthrough capabilities
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:     Device 2
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_deviceName      : sysdefault:CARD=b1
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_displayName     : bcm2835 HDMI 1
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_displayNameExtra: bcm2835 HDMI 1
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_channels        : FL, FR
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_dataFormats     : AE_FMT_S16NE,AE_FMT_S16LE,AE_FMT_U8
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_streamTypes     : No passthrough capabilities
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:     Device 3
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_deviceName      : sysdefault:CARD=Headphones
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_displayName     : bcm2835 Headphones
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_displayNameExtra: bcm2835 Headphones
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_channels        : FL, FR
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_dataFormats     : AE_FMT_S16NE,AE_FMT_S16LE,AE_FMT_U8
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_streamTypes     : No passthrough capabilities
+2020-07-26 22:45:55.623 T:1871704800  NOTICE: Enumerated PI devices:
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:     Device 1
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_deviceName      : HDMI
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_displayName     : HDMI
+2020-07-26 22:45:55.623 T:1871704800  NOTICE:         m_displayNameExtra:
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_deviceType      : AE_DEVTYPE_HDMI
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_channels        : FL, FR
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_sampleRates     : 8000,11025,16000,22050,24000,32000,44100,48000,88200,96000,176400,192000
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32NE,AE_FMT_S16NE,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP,AE_FMT_RAW
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_streamTypes     : STREAM_TYPE_AC3,STREAM_TYPE_EAC3,STREAM_TYPE_DTSHD_CORE,STREAM_TYPE_DTS_2048,STREAM_TYPE_DTS_1024,STREAM_TYPE_DTS_512
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:     Device 2
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_deviceName      : Analogue
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_displayName     : Analogue
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_displayNameExtra:
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_channels        : FL, FR
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_sampleRates     : 48000
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_streamTypes     : No passthrough capabilities
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:     Device 3
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_deviceName      : Both
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_displayName     : HDMI and Analogue
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_displayNameExtra:
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_deviceType      : AE_DEVTYPE_PCM
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_channels        : FL, FR
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_sampleRates     : 48000
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_dataFormats     : AE_FMT_FLOAT,AE_FMT_S32LE,AE_FMT_S16LE,AE_FMT_FLOATP,AE_FMT_S32NEP,AE_FMT_S16NEP
+2020-07-26 22:45:55.624 T:1871704800  NOTICE:         m_streamTypes     : No passthrough capabilities
+2020-07-26 22:45:55.625 T:1861219040    INFO: CActiveAESink::OpenSink - initialize sink
+2020-07-26 22:45:55.625 T:1861219040   DEBUG: CActiveAESink::OpenSink - trying to open device PI:HDMI
+2020-07-26 22:45:55.625 T:1861219040   DEBUG: DllBcm: Using omx system library
+2020-07-26 22:45:55.627 T:1861219040   DEBUG: SECTION:LoadDLL(libopenmaxil.so)
+2020-07-26 22:45:55.628 T:1861219040   DEBUG: Loading: libopenmaxil.so
+2020-07-26 22:45:55.632 T:1787798240   DEBUG: Thread CRBPWorker start, auto delete: false
+2020-07-26 22:45:55.632 T:1861219040   DEBUG: CAESinkPi:Initialize Format:15 Channels:2 Samplerate:44100 framesize:8 bufsize:17640 bytes/s=352800.00 dest=PI:HDMI
+2020-07-26 22:45:55.632 T:1861219040   DEBUG: CAESinkPi:SetAudioProps hdmi_stream_channels 0 hdmi_channel_map 00000008
+2020-07-26 22:45:55.634 T:1861219040   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.audio_render input port 100 output port 100 m_handle 0x6e502210
+2020-07-26 22:45:55.636 T:1861219040   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.audio_render) - port(100), nBufferCountMin(1), nBufferCountActual(2), nBufferSize(17648), nBufferAlignment(16)
+2020-07-26 22:45:55.636 T:1861219040   DEBUG: CActiveAESink::OpenSink - SinkPi Initialized:
+2020-07-26 22:45:55.636 T:1861219040   DEBUG:   Output Device : HDMI
+2020-07-26 22:45:55.636 T:1861219040   DEBUG:   Sample Rate   : 44100
+2020-07-26 22:45:55.636 T:1861219040   DEBUG:   Sample Format : AE_FMT_FLOAT
+2020-07-26 22:45:55.636 T:1861219040   DEBUG:   Channel Count : 2
+2020-07-26 22:45:55.636 T:1861219040   DEBUG:   Channel Layout: FL, FR
+2020-07-26 22:45:55.636 T:1861219040   DEBUG:   Frames        : 2205
+2020-07-26 22:45:55.637 T:1861219040   DEBUG:   Frame Size    : 8
+2020-07-26 22:45:55.646 T:1882190560   DEBUG: CLibInputHandler::DeviceAdded - pointer type device added: Logitech USB-PS/2 Optical Mouse (event0)
+2020-07-26 22:45:55.646 T:1882190560   DEBUG: CLibInputHandler::DeviceAdded - keyboard type device added:   USB Keyboard (event1)
+2020-07-26 22:45:55.646 T:1882190560   DEBUG: CLibInputKeyboard::GetRepeat - delay: 250ms repeat: 33ms for   USB Keyboard (event1)
+2020-07-26 22:45:55.648 T:1902244704    INFO: CKeyboardLayoutManager: loading keyboard layouts from special://xbmc/system/keyboardlayouts...
+2020-07-26 22:45:55.650 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Turkish QWERTY" successfully loaded
+2020-07-26 22:45:55.651 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Romanian QWERTY" successfully loaded
+2020-07-26 22:45:55.652 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Polish QWERTY" successfully loaded
+2020-07-26 22:45:55.652 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian ЙЦУКЕН" successfully loaded
+2020-07-26 22:45:55.653 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Russian АБВ" successfully loaded
+2020-07-26 22:45:55.654 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Icelandic QWERTY" successfully loaded
+2020-07-26 22:45:55.655 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Norwegian QWERTY" successfully loaded
+2020-07-26 22:45:55.655 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Lithuanian AZERTY" successfully loaded
+2020-07-26 22:45:55.656 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Lithuanian QWERTY" successfully loaded
+2020-07-26 22:45:55.657 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian ЯВЕРТЪ" successfully loaded
+2020-07-26 22:45:55.657 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Bulgarian АБВ" successfully loaded
+2020-07-26 22:45:55.658 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Silesian QWERTY" successfully loaded
+2020-07-26 22:45:55.659 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "English QWERTY" successfully loaded
+2020-07-26 22:45:55.659 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "English AZERTY" successfully loaded
+2020-07-26 22:45:55.660 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "English ABC" successfully loaded
+2020-07-26 22:45:55.661 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Slovenian QWERTZ" successfully loaded
+2020-07-26 22:45:55.661 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Danish QWERTY" successfully loaded
+2020-07-26 22:45:55.662 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Arabic QWERTY" successfully loaded
+2020-07-26 22:45:55.663 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Chinese BasePY" successfully loaded
+2020-07-26 22:45:55.663 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Chinese BaiduPY" successfully loaded
+2020-07-26 22:45:55.664 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Thai Kedmanee" successfully loaded
+2020-07-26 22:45:55.665 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Czech QWERTZ" successfully loaded
+2020-07-26 22:45:55.666 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Ukrainian ЙЦУКЕН" successfully loaded
+2020-07-26 22:45:55.666 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Ukrainian АБВ" successfully loaded
+2020-07-26 22:45:55.668 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Slovak QWERTZ" successfully loaded
+2020-07-26 22:45:55.668 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Slovak QWERTY" successfully loaded
+2020-07-26 22:45:55.668 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Slovak ABC" successfully loaded
+2020-07-26 22:45:55.669 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Croatian QWERTY" successfully loaded
+2020-07-26 22:45:55.670 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Italian QWERTY" successfully loaded
+2020-07-26 22:45:55.671 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Spanish QWERTY" successfully loaded
+2020-07-26 22:45:55.672 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Hebrew QWERTY" successfully loaded
+2020-07-26 22:45:55.672 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Hebrew ABC" successfully loaded
+2020-07-26 22:45:55.673 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Korean ㄱㄴㄷ" successfully loaded
+2020-07-26 22:45:55.674 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Portuguese (Portugal) QWERTY" successfully loaded
+2020-07-26 22:45:55.675 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Greek QWERTY" successfully loaded
+2020-07-26 22:45:55.676 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Hungarian QWERTZ" successfully loaded
+2020-07-26 22:45:55.676 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "German QWERTZ" successfully loaded
+2020-07-26 22:45:55.677 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "German ABC" successfully loaded
+2020-07-26 22:45:55.678 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "French AZERTY" successfully loaded
+2020-07-26 22:45:55.678 T:1902244704   DEBUG: CKeyboardLayoutManager: keyboard layout "Swedish QWERTY" successfully loaded
+2020-07-26 22:45:55.686 T:1902244704   DEBUG: Selected UDisks2 as storage provider
+2020-07-26 22:45:55.691 T:1902244704   DEBUG: UDisks2: Daemon version 2.1.8
+2020-07-26 22:45:55.692 T:1902244704   DEBUG: UDisks2: Querying available devices
+2020-07-26 22:45:55.716 T:1902244704  NOTICE: Raspberry PI firmware version: May 22 2020 21:14:13 
+                                            Copyright (c) 2012 Broadcom
+                                            version 4da3e1264076308eda90652cb98b553ae0586390 (clean) (release) (start_x)
+2020-07-26 22:45:55.716 T:1902244704  NOTICE: ARM mem: 768MB GPU mem: 256MB MPG2:0 WVC1:0
+2020-07-26 22:45:55.716 T:1902244704  NOTICE: cache.memorysize: 30MB
+2020-07-26 22:45:55.716 T:1902244704  NOTICE: Config:
+                                            aphy_params_current=819
+                                            arm_freq=1200
+                                            audio_pwm_mode=514
+                                            config_hdmi_boost=5
+                                            core_freq=400
+                                            desired_osc_freq=0x387520
+                                            disable_commandline_tags=2
+                                            disable_l2cache=1
+                                            display_hdmi_rotate=-1
+                                            display_lcd_rotate=-1
+                                            dphy_params_current=547
+                                            enable_tvout=1
+                                            force_eeprom_read=1
+                                            force_pwm_open=1
+                                            framebuffer_ignore_alpha=1
+                                            framebuffer_swap=1
+                                            gpu_freq=300
+                                            hdmi_channel_map=8
+                                            init_uart_clock=0x2dc6c00
+                                            lcd_framerate=60
+                                            over_voltage_avs=62500
+                                            pause_burst_frames=1
+                                            program_serial_random=1
+                                            sdram_freq=450
+                                            total_mem=1024
+                                            hdmi_force_cec_address:0=65535
+                                            hdmi_force_cec_address:1=65535
+                                            hdmi_pixel_freq_limit:0=0x9a7ec80
+2020-07-26 22:45:55.717 T:1902244704  NOTICE: Config:
+                                            device_tree=-
+                                            overlay_prefix=overlays/
+                                            hdmi_cvt:0=
+                                            hdmi_cvt:1=
+                                            hdmi_edid_filename:0=
+                                            hdmi_edid_filename:1=
+                                            hdmi_timings:0=
+                                            hdmi_timings:1=
+2020-07-26 22:45:55.717 T:1902244704   DEBUG: EGL initial desktop resolution 1920x1080 (1920x1080) @ 60.00 - Full Screen (1.00)
+2020-07-26 22:45:55.718 T:1902244704   DEBUG: EGL probe resolution 1920x1080 (1920x1080) @ 60.00 - Full Screen:10010004
+2020-07-26 22:45:55.718 T:1902244704  NOTICE: Found resolution 1920 x 1080 with 1920 x 1080 @ 60.000000 Hz
+2020-07-26 22:45:55.718 T:1902244704  NOTICE: Found (1920x1080@60.000000) at 16, setting to RES_DESKTOP at 16
+2020-07-26 22:45:55.719 T:1902244704  NOTICE: EGL_VERSION = 1.4
+2020-07-26 22:45:55.719 T:1902244704  NOTICE: EGL_VENDOR = Broadcom
+2020-07-26 22:45:55.719 T:1902244704  NOTICE: EGL_EXTENSIONS = EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_vg_parent_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_lock_surface
+2020-07-26 22:45:55.719 T:1902244704  NOTICE: EGL_CLIENT_EXTENSIONS = NULL
+2020-07-26 22:45:55.719 T:1902244704   DEBUG: EGL Config Attributes:
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_BUFFER_SIZE: 32
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_ALPHA_SIZE: 8
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_BLUE_SIZE: 8
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_GREEN_SIZE: 8
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_RED_SIZE: 8
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_DEPTH_SIZE: 24
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_STENCIL_SIZE: 0
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_CONFIG_CAVEAT: 0x3038
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_CONFIG_ID: 3
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_LEVEL: 0
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_MAX_PBUFFER_HEIGHT: 2048
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_MAX_PBUFFER_PIXELS: 4194304
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_MAX_PBUFFER_WIDTH: 2048
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_NATIVE_RENDERABLE: 1
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_NATIVE_VISUAL_ID: 37928
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_NATIVE_VISUAL_TYPE: 0x3038
+2020-07-26 22:45:55.719 T:1902244704   DEBUG:   EGL_SAMPLES: 0
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_SAMPLE_BUFFERS: 0
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_SURFACE_TYPE: 1639
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_TRANSPARENT_TYPE: 0x3038
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_TRANSPARENT_BLUE_VALUE: 0
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_TRANSPARENT_GREEN_VALUE: 0
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_TRANSPARENT_RED_VALUE: 0
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_BIND_TO_TEXTURE_RGB: 0
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_BIND_TO_TEXTURE_RGBA: 1
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_MIN_SWAP_INTERVAL: 0
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_MAX_SWAP_INTERVAL: 2147483647
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_LUMINANCE_SIZE: 0
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_ALPHA_MASK_SIZE: 0
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_COLOR_BUFFER_TYPE: 0x308e
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_RENDERABLE_TYPE: 7
+2020-07-26 22:45:55.720 T:1902244704   DEBUG:   EGL_CONFORMANT: 7
+2020-07-26 22:45:55.721 T:1902244704    INFO: RetroPlayer[PROCESS]: Registering process control for RPi
+2020-07-26 22:45:55.721 T:1902244704    INFO: RetroPlayer[RENDER]: Registering renderer factory for OpenGLES
+2020-07-26 22:45:55.721 T:1902244704  NOTICE: Checking resolution 16
+2020-07-26 22:45:55.755 T:1882190560   DEBUG: CLibInputHandler::DeviceAdded - keyboard type device added:   USB Keyboard System Control (event2)
+2020-07-26 22:45:55.755 T:1882190560   DEBUG: CLibInputKeyboard::GetRepeat - could not get key repeat for event2 (Function not implemented)
+2020-07-26 22:45:55.755 T:1882190560   DEBUG: CLibInputKeyboard::GetRepeat - delay: 400ms repeat: 80ms for   USB Keyboard System Control (event2)
+2020-07-26 22:45:55.795 T:1882190560   DEBUG: CLibInputHandler::DeviceAdded - keyboard type device added:   USB Keyboard Consumer Control (event3)
+2020-07-26 22:45:55.795 T:1882190560   DEBUG: CLibInputKeyboard::GetRepeat - could not get key repeat for event3 (Function not implemented)
+2020-07-26 22:45:55.795 T:1882190560   DEBUG: CLibInputKeyboard::GetRepeat - delay: 400ms repeat: 80ms for   USB Keyboard Consumer Control (event3)
+2020-07-26 22:45:55.840 T:1861219040   DEBUG: CAESinkPi:Drain delay:99ms now:0ms
+2020-07-26 22:45:55.840 T:1861219040   DEBUG: CAESinkPi:Deinitialize
+2020-07-26 22:45:55.841 T:1861219040   DEBUG: CAESinkPi:SetAudioProps hdmi_stream_channels 0 hdmi_channel_map 00000000
+2020-07-26 22:45:55.851 T:1861219040   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.audio_render handle 0x6e502210
+2020-07-26 22:45:55.862 T:1902244704   ERROR: EGL failed to set HDMI mode (1,16)=-1 off
+2020-07-26 22:45:55.865 T:1902244704   DEBUG: EGL set resolution 1920x1080 -> 1920x1080 @ 60.00 fps (1,16) flags:10010004 aspect:1.00
+2020-07-26 22:45:55.868 T:1871704800   DEBUG: CActiveAE - display reset event
+2020-07-26 22:45:55.868 T:1861219040    INFO: CActiveAESink::OpenSink - initialize sink
+2020-07-26 22:45:55.868 T:1861219040   DEBUG: CActiveAESink::OpenSink - trying to open device PI:HDMI
+2020-07-26 22:45:55.869 T:1861219040   DEBUG: CAESinkPi:Initialize Format:15 Channels:2 Samplerate:44100 framesize:8 bufsize:17640 bytes/s=352800.00 dest=PI:HDMI
+2020-07-26 22:45:55.869 T:1861219040   DEBUG: CAESinkPi:SetAudioProps hdmi_stream_channels 0 hdmi_channel_map 00000008
+2020-07-26 22:45:55.870 T:1861219040   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.audio_render input port 100 output port 100 m_handle 0x6e502238
+2020-07-26 22:45:55.872 T:1861219040   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.audio_render) - port(100), nBufferCountMin(1), nBufferCountActual(2), nBufferSize(17648), nBufferAlignment(16)
+2020-07-26 22:45:55.872 T:1861219040   DEBUG: CActiveAESink::OpenSink - SinkPi Initialized:
+2020-07-26 22:45:55.872 T:1861219040   DEBUG:   Output Device : HDMI
+2020-07-26 22:45:55.872 T:1861219040   DEBUG:   Sample Rate   : 44100
+2020-07-26 22:45:55.872 T:1861219040   DEBUG:   Sample Format : AE_FMT_FLOAT
+2020-07-26 22:45:55.872 T:1861219040   DEBUG:   Channel Count : 2
+2020-07-26 22:45:55.872 T:1861219040   DEBUG:   Channel Layout: FL, FR
+2020-07-26 22:45:55.872 T:1861219040   DEBUG:   Frames        : 2205
+2020-07-26 22:45:55.872 T:1861219040   DEBUG:   Frame Size    : 8
+2020-07-26 22:45:55.876 T:1871704800   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+2020-07-26 22:45:55.887 T:1902244704  NOTICE: GL_VENDOR = Broadcom
+2020-07-26 22:45:55.888 T:1902244704  NOTICE: GL_RENDERER = VideoCore IV HW
+2020-07-26 22:45:55.888 T:1902244704  NOTICE: GL_VERSION = OpenGL ES 2.0
+2020-07-26 22:45:55.888 T:1902244704  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 1.00
+2020-07-26 22:45:55.888 T:1902244704  NOTICE: GL_EXTENSIONS = GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_paletted_texture GL_OES_texture_npot GL_OES_depth24 GL_OES_vertex_half_float GL_OES_EGL_image GL_OES_EGL_image_external GL_EXT_discard_framebuffer GL_OES_rgb8_rgba8 GL_OES_depth32 GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_APPLE_rgb_422 GL_EXT_debug_marker
+2020-07-26 22:45:55.889 T:1902244704   DEBUG: GL: Vertex Shader compilation log:
+2020-07-26 22:45:55.889 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.890 T:1902244704   DEBUG: GL: Pixel Shader compilation log:
+2020-07-26 22:45:55.890 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.906 T:1902244704   DEBUG: GL: Vertex Shader compilation log:
+2020-07-26 22:45:55.906 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.907 T:1902244704   DEBUG: GL: Pixel Shader compilation log:
+2020-07-26 22:45:55.907 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.925 T:1902244704   DEBUG: GL: Vertex Shader compilation log:
+2020-07-26 22:45:55.925 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.925 T:1902244704   DEBUG: GL: Pixel Shader compilation log:
+2020-07-26 22:45:55.925 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.944 T:1902244704   DEBUG: GL: Vertex Shader compilation log:
+2020-07-26 22:45:55.944 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.945 T:1902244704   DEBUG: GL: Pixel Shader compilation log:
+2020-07-26 22:45:55.945 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.960 T:1902244704   DEBUG: GL: Vertex Shader compilation log:
+2020-07-26 22:45:55.960 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.961 T:1902244704   DEBUG: GL: Pixel Shader compilation log:
+2020-07-26 22:45:55.961 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.976 T:1902244704   DEBUG: GL: Vertex Shader compilation log:
+2020-07-26 22:45:55.976 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.976 T:1902244704   DEBUG: GL: Pixel Shader compilation log:
+2020-07-26 22:45:55.976 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.994 T:1902244704   DEBUG: GL: Vertex Shader compilation log:
+2020-07-26 22:45:55.995 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:55.995 T:1902244704   DEBUG: GL: Pixel Shader compilation log:
+2020-07-26 22:45:55.995 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:56.010 T:1902244704   DEBUG: GL: Vertex Shader compilation log:
+2020-07-26 22:45:56.010 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:56.011 T:1902244704   DEBUG: GL: Pixel Shader compilation log:
+2020-07-26 22:45:56.011 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:56.027 T:1902244704   DEBUG: GL: Vertex Shader compilation log:
+2020-07-26 22:45:56.027 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:56.027 T:1902244704   DEBUG: GL: Pixel Shader compilation log:
+2020-07-26 22:45:56.027 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:56.054 T:1902244704   DEBUG: GL: Vertex Shader compilation log:
+2020-07-26 22:45:56.054 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:56.054 T:1902244704   DEBUG: GL: Pixel Shader compilation log:
+2020-07-26 22:45:56.054 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:56.075 T:1902244704   DEBUG: GL: Vertex Shader compilation log:
+2020-07-26 22:45:56.075 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:56.076 T:1902244704   DEBUG: GL: Pixel Shader compilation log:
+2020-07-26 22:45:56.076 T:1902244704   DEBUG: Compiled
+2020-07-26 22:45:56.230 T:1861219040   DEBUG: CAESinkPi:Drain delay:98ms now:0ms
+2020-07-26 22:45:56.230 T:1861219040   DEBUG: CAESinkPi:Deinitialize
+2020-07-26 22:45:56.231 T:1861219040   DEBUG: CAESinkPi:SetAudioProps hdmi_stream_channels 0 hdmi_channel_map 00000000
+2020-07-26 22:45:56.241 T:1861219040   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.audio_render handle 0x6e502238
+2020-07-26 22:45:56.259 T:1902244704   DEBUG: EGL set HDMI mode (1,16)=0 off
+2020-07-26 22:45:56.404 T:1821369056   DEBUG: EGL tv_service_callback (8,1,16)
+2020-07-26 22:45:56.404 T:1902244704   DEBUG: EGL set resolution 1920x1080 -> 1920x1080 @ 60.00 fps (1,16) flags:10010004 aspect:1.00
+2020-07-26 22:45:56.420 T:1871704800   DEBUG: CActiveAE - display reset event
+2020-07-26 22:45:56.421 T:1861219040    INFO: CActiveAESink::OpenSink - initialize sink
+2020-07-26 22:45:56.421 T:1861219040   DEBUG: CActiveAESink::OpenSink - trying to open device PI:HDMI
+2020-07-26 22:45:56.421 T:1861219040   DEBUG: CAESinkPi:Initialize Format:15 Channels:2 Samplerate:44100 framesize:8 bufsize:17640 bytes/s=352800.00 dest=PI:HDMI
+2020-07-26 22:45:56.421 T:1861219040   DEBUG: CAESinkPi:SetAudioProps hdmi_stream_channels 0 hdmi_channel_map 00000008
+2020-07-26 22:45:56.423 T:1861219040   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.audio_render input port 100 output port 100 m_handle 0x6e502238
+2020-07-26 22:45:56.425 T:1861219040   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.audio_render) - port(100), nBufferCountMin(1), nBufferCountActual(2), nBufferSize(17648), nBufferAlignment(16)
+2020-07-26 22:45:56.426 T:1861219040   DEBUG: CActiveAESink::OpenSink - SinkPi Initialized:
+2020-07-26 22:45:56.426 T:1861219040   DEBUG:   Output Device : HDMI
+2020-07-26 22:45:56.426 T:1861219040   DEBUG:   Sample Rate   : 44100
+2020-07-26 22:45:56.426 T:1861219040   DEBUG:   Sample Format : AE_FMT_FLOAT
+2020-07-26 22:45:56.426 T:1861219040   DEBUG:   Channel Count : 2
+2020-07-26 22:45:56.426 T:1861219040   DEBUG:   Channel Layout: FL, FR
+2020-07-26 22:45:56.426 T:1861219040   DEBUG:   Frames        : 2205
+2020-07-26 22:45:56.426 T:1861219040   DEBUG:   Frame Size    : 8
+2020-07-26 22:45:56.430 T:1902244704    INFO: GLES: Maximum texture width: 2048
+2020-07-26 22:45:56.430 T:1871704800   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+2020-07-26 22:45:56.431 T:1902244704   DEBUG: guilib: Fill viewport on change for solving rendering passes
+2020-07-26 22:45:56.435 T:1902244704 WARNING: COMXImageFile::GetCodingType progressive images not supported by decoder
+2020-07-26 22:45:56.435 T:1902244704   DEBUG: COMXImageFile::ReadFile /usr/share/kodi/media/splash.jpg GetCodingType=0x7fffffff (1920x1080)
+2020-07-26 22:45:56.435 T:1902244704  NOTICE: LoadJpeg: unable to load /usr/share/kodi/media/splash.jpg
+2020-07-26 22:45:57.060 T:1902244704    INFO: GLES: Enabling VSYNC
+2020-07-26 22:45:57.060 T:1902244704    INFO: load keymapping
+2020-07-26 22:45:57.064 T:1902244704    INFO: Loading special://xbmc/system/keymaps/appcommand.xml
+2020-07-26 22:45:57.065 T:1902244704    INFO: Loading special://xbmc/system/keymaps/customcontroller.AppleRemote.xml
+2020-07-26 22:45:57.067 T:1902244704    INFO: Loading special://xbmc/system/keymaps/customcontroller.Harmony.xml
+2020-07-26 22:45:57.071 T:1902244704    INFO: Loading special://xbmc/system/keymaps/gamepad.xml
+2020-07-26 22:45:57.075 T:1902244704    INFO: Loading special://xbmc/system/keymaps/joystick.xml
+2020-07-26 22:45:57.079 T:1902244704    INFO: Loading special://xbmc/system/keymaps/keyboard.xml
+2020-07-26 22:45:57.088 T:1902244704    INFO: Loading special://xbmc/system/keymaps/mouse.xml
+2020-07-26 22:45:57.089 T:1902244704    INFO: Loading special://xbmc/system/keymaps/remote.xml
+2020-07-26 22:45:57.097 T:1902244704    INFO: Loading special://xbmc/system/keymaps/touchscreen.xml
+2020-07-26 22:45:57.100 T:1902244704    INFO: GUI format 1920x1080, Display 1920x1080 (1920x1080) @ 60.00 - Full Screen
+2020-07-26 22:45:57.101 T:1902244704    INFO: CLangInfo: loading resource.language.en_gb language information...
+2020-07-26 22:45:57.103 T:1902244704   DEBUG: trying to set locale to en_US.UTF-8
+2020-07-26 22:45:57.104 T:1902244704    INFO: global locale set to C
+2020-07-26 22:45:57.104 T:1902244704    INFO: CLangInfo: loading resource.language.en_gb language strings...
+2020-07-26 22:45:57.151 T:1902244704   DEBUG: LocalizeStrings: loaded 4021 strings from file resource://resource.language.en_gb/strings.po
+2020-07-26 22:45:57.164 T:1902244704   DEBUG: LocalizeStrings: loaded 1 strings from file /usr/share/kodi/addons/audioencoder.kodi.builtin.aac/resources/language/English/strings.po
+2020-07-26 22:45:57.165 T:1902244704   DEBUG: LocalizeStrings: loaded 1 strings from file /usr/share/kodi/addons/audioencoder.kodi.builtin.wma/resources/language/English/strings.po
+2020-07-26 22:45:57.166 T:1902244704   DEBUG: LocalizeStrings: loaded 18 strings from file /usr/share/kodi/addons/game.controller.default/resources/language/resource.language.en_gb/strings.po
+2020-07-26 22:45:57.166 T:1902244704   DEBUG: LocalizeStrings: loaded 13 strings from file /usr/share/kodi/addons/game.controller.snes/resources/language/resource.language.en_gb/strings.po
+2020-07-26 22:45:57.167 T:1902244704   DEBUG: LocalizeStrings: loaded 22 strings from file /usr/share/kodi/addons/inputstream.adaptive/resources/language/resource.language.en_gb/strings.po
+2020-07-26 22:45:57.167 T:1902244704   DEBUG: LocalizeStrings: loaded 17 strings from file /home/pi/.kodi/addons/metadata.album.universal/resources/language/resource.language.en_gb/strings.po
+2020-07-26 22:45:57.168 T:1902244704   DEBUG: LocalizeStrings: loaded 32 strings from file /home/pi/.kodi/addons/metadata.artists.universal/resources/language/resource.language.en_gb/strings.po
+2020-07-26 22:45:57.173 T:1902244704   DEBUG: LocalizeStrings: loaded 9 strings from file /home/pi/.kodi/addons/metadata.themoviedb.org/resources/language/resource.language.en_gb/strings.po
+2020-07-26 22:45:57.173 T:1902244704   DEBUG: LocalizeStrings: loaded 11 strings from file /home/pi/.kodi/addons/metadata.tvshows.themoviedb.org/resources/language/resource.language.en_gb/strings.po
+2020-07-26 22:45:57.177 T:1902244704   DEBUG: LocalizeStrings: loaded 1 strings from file /usr/share/kodi/addons/screensaver.xbmc.builtin.dim/resources/language/resource.language.en_gb/strings.po
+2020-07-26 22:45:57.179 T:1902244704   DEBUG: LocalizeStrings: loaded 24 strings from file /home/pi/.kodi/addons/service.xbmc.versioncheck/resources/language/English/strings.po
+2020-07-26 22:45:57.184 T:1902244704   DEBUG: LocalizeStrings: loaded 83 strings from file /home/pi/.kodi/addons/script.module.inputstreamhelper/resources/language/resource.language.en_gb/strings.po
+2020-07-26 22:45:57.190 T:1902244704   DEBUG: LocalizeStrings: loaded 243 strings from file /home/pi/.kodi/addons/plugin.video.netflix/resources/language/resource.language.en_gb/strings.po
+2020-07-26 22:45:57.191 T:1777722080   DEBUG: Thread JobWorker start, auto delete: true
+2020-07-26 22:45:57.191 T:1777722080   DEBUG: Initialize, updating databases...
+2020-07-26 22:45:57.194 T:1777722080  NOTICE: Running database version Addons27
+2020-07-26 22:45:57.197 T:1777722080  NOTICE: Running database version ViewModes6
+2020-07-26 22:45:57.199 T:1777722080  NOTICE: Running database version Textures13
+2020-07-26 22:45:57.206 T:1777722080  NOTICE: Running database version MyMusic72
+2020-07-26 22:45:57.216 T:1777722080  NOTICE: Running database version MyVideos116
+2020-07-26 22:45:57.219 T:1777722080  NOTICE: Running database version TV32
+2020-07-26 22:45:57.222 T:1777722080  NOTICE: Running database version Epg12
+2020-07-26 22:45:57.222 T:1777722080   DEBUG: Initialize, updating databases... DONE
+2020-07-26 22:45:57.223 T:1902244704  NOTICE: start dvd mediatype detection
+2020-07-26 22:45:57.223 T:1995952864   DEBUG: Thread DetectDVDMedia start, auto delete: false
+2020-07-26 22:45:57.223 T:1995952864   DEBUG: Compiled with libcdio Version 0.83
+2020-07-26 22:45:57.223 T:1902244704    INFO: DPMS: not supported on this platform
+2020-07-26 22:45:57.226 T:1995952864   DEBUG: Thread DetectDVDMedia 1995952864 terminating
+2020-07-26 22:45:57.287 T:1902240480   DEBUG: CAnnouncementManager - Announcement: OnClear from xbmc
+2020-07-26 22:45:57.287 T:1902240480   DEBUG: GOT ANNOUNCEMENT, type: 2, from xbmc, message OnClear
+2020-07-26 22:45:57.309 T:1902244704    INFO: Unloading old skin ...
+2020-07-26 22:45:57.311 T:1902244704  NOTICE:   load skin from: /usr/share/kodi/addons/skin.estuary (version: 2.0.22)
+2020-07-26 22:45:57.311 T:1902244704    INFO:   load fonts for skin...
+2020-07-26 22:45:57.314 T:1902244704    INFO: Loading skin includes from /usr/share/kodi/addons/skin.estuary/xml/Includes.xml
+2020-07-26 22:45:57.412 T:1902244704    INFO: Loading fonts from /usr/share/kodi/addons/skin.estuary/xml/Font.xml
+2020-07-26 22:45:57.446 T:1902244704   DEBUG: LocalizeStrings: loaded 140 strings from file /usr/share/kodi/addons/skin.estuary/language/resource.language.en_gb/strings.po
+2020-07-26 22:45:57.446 T:1902244704    INFO:   load new skin...
+2020-07-26 22:45:57.446 T:1902244704    INFO: Loading custom window XMLs from skin path /usr/share/kodi/addons/skin.estuary/xml
+2020-07-26 22:45:57.459 T:1902244704   DEBUG: Load Skin XML: 13.17ms
+2020-07-26 22:45:57.459 T:1902244704    INFO:   initialize new skin...
+2020-07-26 22:45:57.459 T:1902244704   DEBUG: guilib: Fill viewport on change for solving rendering passes
+2020-07-26 22:45:57.459 T:1902244704    INFO: Loading skin file: DialogExtendedProgressBar.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.469 T:1902244704   DEBUG: OpenBundle - Opened bundle /usr/share/kodi/addons/skin.estuary/media/Textures.xbt
+2020-07-26 22:45:57.469 T:1902244704    INFO: Loading skin file: Pointer.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.471 T:1902244704    INFO: Loading skin file: VideoOSD.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.493 T:1902244704    INFO: Loading skin file: DialogSeekBar.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.521 T:1902244704    INFO: Loading skin file: DialogSettings.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.531 T:1902244704    INFO: Loading skin file: DialogPVRChannelGuide.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.538 T:1902244704    INFO: Loading skin file: DialogNotification.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.540 T:1902244704    INFO: Loading skin file: Custom_1109_TopBarOverlay.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.546 T:1902244704    INFO: Loading skin file: DialogVolumeBar.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.548 T:1902244704    INFO: Loading skin file: DialogSettings.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.556 T:1902244704    INFO: Loading skin file: DialogBusy.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.562 T:1902244704    INFO: Previous line repeats 1 times.
+2020-07-26 22:45:57.562 T:1902244704    INFO: Loading skin file: DialogPVRChannelsOSD.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.570 T:1902244704    INFO: Loading skin file: DialogSubtitles.xml, load type: LOAD_ON_GUI_INIT
+2020-07-26 22:45:57.584 T:1902244704    INFO: Loading resource://resource.uisounds.kodi/sounds.xml
+2020-07-26 22:45:57.677 T:1902244704    INFO:   skin loaded...
+2020-07-26 22:45:57.677 T:1902244704   DEBUG: Activating window ID: 12997
+2020-07-26 22:45:57.677 T:1902244704   DEBUG: ------ Window Init () ------
+2020-07-26 22:45:57.678 T:1902244704   DEBUG: Activating window ID: 12999
+2020-07-26 22:45:57.678 T:1902244704   DEBUG: ------ Window Init (Startup.xml) ------
+2020-07-26 22:45:57.678 T:1902244704    INFO: Loading skin file: Startup.xml, load type: LOAD_EVERY_TIME
+2020-07-26 22:45:57.678 T:1902244704   DEBUG: Activating window ID: 10000
+2020-07-26 22:45:57.678 T:1902244704   DEBUG: ------ Window Deinit (Startup.xml) ------
+2020-07-26 22:45:57.678 T:1902244704   DEBUG: ------ Window Init (Home.xml) ------
+2020-07-26 22:45:57.678 T:1902244704    INFO: Loading skin file: Home.xml, load type: KEEP_IN_MEMORY
+2020-07-26 22:45:57.851 T:1902244704   DEBUG: CDirectoryProvider[addons://]: refreshing..
+2020-07-26 22:45:57.851 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/video/]: refreshing..
+2020-07-26 22:45:57.852 T:1765016288   DEBUG: Thread JobWorker start, auto delete: true
+2020-07-26 22:45:57.852 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/audio/]: refreshing..
+2020-07-26 22:45:57.852 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/game/]: refreshing..
+2020-07-26 22:45:57.852 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/executable/]: refreshing..
+2020-07-26 22:45:57.852 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/image/]: refreshing..
+2020-07-26 22:45:57.853 T:1902244704   DEBUG: CDirectoryProvider[library://video/]: refreshing..
+2020-07-26 22:45:57.853 T:1902244704   DEBUG: CDirectoryProvider[sources://video/]: refreshing..
+2020-07-26 22:45:57.853 T:1902244704   DEBUG: CDirectoryProvider[special://videoplaylists/]: refreshing..
+2020-07-26 22:45:57.853 T:1902244704   DEBUG: CDirectoryProvider[favourites://]: refreshing..
+2020-07-26 22:45:57.853 T:1902244704   DEBUG: CDirectoryProvider[sources://pictures/]: refreshing..
+2020-07-26 22:45:57.853 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/game/]: refreshing..
+2020-07-26 22:45:57.870 T:1756623584   DEBUG: Thread JobWorker start, auto delete: true
+2020-07-26 22:45:57.884 T:1777722080   DEBUG: CAddonMgr::GetAvailableUpdates took 33 ms
+2020-07-26 22:45:57.926 T:1902244704   DEBUG: JSONRPC: JSON schema type definition references an unknown type Setting.Details.Setting
+2020-07-26 22:45:57.926 T:1902244704 WARNING: JSONRPC: Could not parse type "Setting.Details.SettingList"
+2020-07-26 22:45:57.927 T:1902244704    INFO: JSONRPC: Adding type "Setting.Details.SettingList" to list of incomplete definitions (waiting for "Setting.Details.Setting")
+2020-07-26 22:45:57.927 T:1902244704    INFO: JSONRPC: Resolving incomplete types/methods referencing Setting.Details.Setting
+2020-07-26 22:45:57.939 T:1765016288   DEBUG: CMultiPathDirectory::GetDirectory(multipath://special%3a%2f%2fprofile%2fplaylists%2fvideo/special%3a%2f%2fprofile%2fplaylists%2fmixed/)
+2020-07-26 22:45:57.939 T:1765016288   DEBUG: Getting Directory (special://profile/playlists/video)
+2020-07-26 22:45:57.940 T:1765016288   DEBUG: Getting Directory (special://profile/playlists/mixed)
+2020-07-26 22:45:57.941 T:1765016288   DEBUG: CMultiPathDirectory::MergeItems, items = 0
+2020-07-26 22:45:57.942 T:1777722080   DEBUG: CRecentlyAddedJob::UpdateMusic() - Running RecentlyAdded home screen update
+2020-07-26 22:45:57.959 T:1777722080   DEBUG: GetRecentlyAddedAlbumSongs() query: SELECT songview.*, songartistview.* FROM (SELECT idAlbum FROM album ORDER BY idAlbum DESC LIMIT 10) AS recentalbums JOIN songview ON songview.idAlbum = recentalbums.idAlbum JOIN songartistview ON songview.idSong = songartistview.idSong ORDER BY songview.idAlbum DESC, songview.idSong, songartistview.idRole, songartistview.iOrder
+2020-07-26 22:45:57.963 T:1777722080   DEBUG: GetRecentlyAddedAlbums query: SELECT albumview.*, albumartistview.* FROM (SELECT idAlbum FROM album WHERE strAlbum != '' ORDER BY idAlbum DESC LIMIT 10) AS recentalbums JOIN albumview ON albumview.idAlbum = recentalbums.idAlbum JOIN albumartistview ON albumview.idAlbum = albumartistview.idAlbum ORDER BY albumview.idAlbum desc, albumartistview.iOrder
+2020-07-26 22:45:57.969 T:1777722080   DEBUG: CRecentlyAddedJob::UpdateVideos() - Running RecentlyAdded home screen update
+2020-07-26 22:45:57.988 T:1902244704    INFO: JSONRPC v10.3.0: Successfully initialized
+2020-07-26 22:45:57.990 T:1902244704   DEBUG: LoadMappings - loaded node "Motorola Nyxboard Hybrid"
+2020-07-26 22:45:57.990 T:1902244704   DEBUG: LoadMappings - loaded node "CEC Adapter"
+2020-07-26 22:45:57.990 T:1902244704   DEBUG: LoadMappings - loaded node "Pulse-Eight CEC Adapter"
+2020-07-26 22:45:57.990 T:1902244704   DEBUG: LoadMappings - loaded node "iMON HID device"
+2020-07-26 22:45:57.990 T:1902244704   DEBUG: LoadMappings - loaded node "WETEK Play remote"
+2020-07-26 22:45:57.991 T:1902244704   DEBUG: LoadMappings - loaded node ""
+2020-07-26 22:45:57.991 T:1902244704   DEBUG: CPeripheralBusUSB - initialised udev monitor
+2020-07-26 22:45:57.992 T:1738560224   DEBUG: Thread PeripBusUSBUdev start, auto delete: false
+2020-07-26 22:45:57.992 T:1730167520   DEBUG: Thread PeripBusCEC start, auto delete: false
+2020-07-26 22:45:57.992 T:1721774816   DEBUG: Thread PeripBusAddon start, auto delete: false
+2020-07-26 22:45:58.005 T:1777722080   DEBUG: CRecentlyAddedJob::UpdateTotal() - Running RecentlyAdded home screen update
+2020-07-26 22:45:58.012 T:1777722080   DEBUG: GetArtistsByWhere query: SELECT COUNT(DISTINCT artistview.idArtist) FROM artistview  WHERE (EXISTS (SELECT 1 FROM song_artist WHERE song_artist.idArtist = artistview.idArtist AND song_artist.idRole = 1) OR EXISTS (SELECT 1 FROM album_artist WHERE album_artist.idArtist = artistview.idArtist)) AND (artistview.strArtist != '')
+2020-07-26 22:45:58.096 T:1902244704   DEBUG: Initialise - initialised peripheral on 'keyboard' with 1 features and 0 sub devices
+2020-07-26 22:45:58.096 T:1902244704  NOTICE: Register - new keyboard device registered on application->keyboard: Keyboard (0000:0000)
+2020-07-26 22:45:58.097 T:1902244704   DEBUG: Initialise - initialised peripheral on 'mouse' with 1 features and 0 sub devices
+2020-07-26 22:45:58.097 T:1902244704  NOTICE: Register - new mouse device registered on application->mouse: Mouse (0000:0000)
+2020-07-26 22:45:58.101 T:1902244704   DEBUG: ContextMenuManager: addon menus reloaded.
+2020-07-26 22:45:58.101 T:1902244704  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+2020-07-26 22:45:58.102 T:1902244704   DEBUG: CPlayerCoreConfig::<ctor>: created player VideoPlayer
+2020-07-26 22:45:58.102 T:1902244704   DEBUG: CPlayerCoreConfig::<ctor>: created player PAPlayer
+2020-07-26 22:45:58.102 T:1902244704   DEBUG: CPlayerCoreConfig::<ctor>: created player RetroPlayer
+2020-07-26 22:45:58.102 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: system rules
+2020-07-26 22:45:58.102 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: mms/udp
+2020-07-26 22:45:58.103 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: lastfm/shout
+2020-07-26 22:45:58.103 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtmp
+2020-07-26 22:45:58.103 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtsp
+2020-07-26 22:45:58.103 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: streams
+2020-07-26 22:45:58.103 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: aacp/sdp
+2020-07-26 22:45:58.103 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: mp2
+2020-07-26 22:45:58.103 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: dvd
+2020-07-26 22:45:58.103 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: dvdimage
+2020-07-26 22:45:58.103 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: sdp/asf
+2020-07-26 22:45:58.103 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: nsv
+2020-07-26 22:45:58.103 T:1902244704   DEBUG: CPlayerSelectionRule::Initialize: creating rule: radio
+2020-07-26 22:45:58.103 T:1902244704  NOTICE: Loaded playercorefactory configuration
+2020-07-26 22:45:58.103 T:1902244704  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+2020-07-26 22:45:58.103 T:1902244704  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+2020-07-26 22:45:58.103 T:1902244704    INFO: removing tempfiles
+2020-07-26 22:45:58.105 T:1713382112   DEBUG: Thread PeripEventScanner start, auto delete: false
+2020-07-26 22:45:58.120 T:1902244704   DEBUG: CRepositoryUpdater: previous update at 07/26/2020 10:26:41 PM, next at 07/27/2020 10:26:41 PM
+2020-07-26 22:45:58.125 T:1704989408   DEBUG: Thread Timer start, auto delete: false
+2020-07-26 22:45:58.125 T:1902244704   DEBUG: CServiceAddonManager: starting service.xbmc.versioncheck
+2020-07-26 22:45:58.125 T:1696596704   DEBUG: Thread LanguageInvoker start, auto delete: false
+2020-07-26 22:45:58.125 T:1902244704   DEBUG: CServiceAddonManager: starting plugin.video.netflix
+2020-07-26 22:45:58.126 T:1696596704    INFO: initializing python engine.
+2020-07-26 22:45:58.132 T:1688204000   DEBUG: Thread LanguageInvoker start, auto delete: false
+2020-07-26 22:45:58.132 T:1902244704  NOTICE: initialize done
+2020-07-26 22:45:58.132 T:1688204000    INFO: initializing python engine.
+2020-07-26 22:45:58.132 T:1902244704  NOTICE: Running the application...
+2020-07-26 22:45:58.133 T:1902240480   DEBUG: CAnnouncementManager - Announcement: OnAdd from xbmc
+2020-07-26 22:45:58.133 T:1902240480   DEBUG: GOT ANNOUNCEMENT, type: 2, from xbmc, message OnAdd
+2020-07-26 22:45:58.134 T:1902244704   DEBUG: no profile autoexec.py (/home/pi/.kodi/userdata/autoexec.py) found, skipping
+2020-07-26 22:45:58.135 T:1902244704   DEBUG: NetworkMessage - Starting network services
+2020-07-26 22:45:58.142 T:1902244704   DEBUG: CZeroconfAvahi::clientCallback: client is up and running
+2020-07-26 22:45:58.143 T:1902244704  NOTICE: starting zeroconf publishing
+2020-07-26 22:45:58.145 T:1671418592   DEBUG: Thread EventServer start, auto delete: false
+2020-07-26 22:45:58.145 T:1671418592  NOTICE: ES: Starting UDP Event server on port 9777
+2020-07-26 22:45:58.146 T:1671418592  NOTICE: UDP: Listening on port 9777 (ipv6 : false)
+2020-07-26 22:45:58.147 T:1765016288   DEBUG: CZeroconfAvahi::doPublishService identifier: servers.eventserver type: _xbmc-events._udp name:Kodi (Rosenbauer_3D_printer) port:9777
+2020-07-26 22:45:58.147 T:1765016288   DEBUG: CZeroconfAvahi::addService() named: Kodi (Rosenbauer_3D_printer) type: _xbmc-events._udp port:9777
+2020-07-26 22:45:58.147 T:1902244704    INFO: JSONRPC Server: Successfully initialized
+2020-07-26 22:45:58.147 T:1777722080   DEBUG: CZeroconfAvahi::doPublishService identifier: servers.jsonrpc-tpc type: _xbmc-jsonrpc._tcp name:Kodi (Rosenbauer_3D_printer) port:9090
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerCoreFactory::GetPlayers(/var/run/lirc/lircd)
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: system rules
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: matches rule: system rules
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: mms/udp
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: lastfm/shout
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtmp
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtsp
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: streams
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvd
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvdimage
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: sdp/asf
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: nsv
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: radio
+2020-07-26 22:45:58.148 T:1902244704   DEBUG: CPlayerCoreFactory::GetPlayers: matched 0 rules with players
+2020-07-26 22:45:58.149 T:1902244704   DEBUG: CPlayerCoreFactory::GetPlayers: adding videodefaultplayer (VideoPlayer)
+2020-07-26 22:45:58.149 T:1902244704   DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=0
+2020-07-26 22:45:58.149 T:1902244704   DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=1
+2020-07-26 22:45:58.149 T:1902244704   DEBUG: CPlayerCoreFactory::GetPlayers: added 1 players
+2020-07-26 22:45:58.150 T:1663025888   DEBUG: Thread TCPServer start, auto delete: false
+2020-07-26 22:45:58.153 T:1902244704   DEBUG: CMMALPool::CMMALPool Created pool 0x47e6aa0 of size 26 x 0 for port vc.ril.video_decode:out:0(I420)
+2020-07-26 22:45:58.156 T:1777722080   DEBUG: CZeroconfAvahi::addService() named: Kodi (Rosenbauer_3D_printer) type: _xbmc-jsonrpc._tcp port:9090
+2020-07-26 22:45:58.160 T:1902244704   DEBUG: Radio UECP (RDS) Processor - new CDVDRadioRDSData
+2020-07-26 22:45:58.160 T:1902244704  NOTICE: VideoPlayer::OpenFile: /var/run/lirc/lircd
+2020-07-26 22:45:58.160 T:1902244704   DEBUG: CMMALRenderer::CMMALRenderer
+2020-07-26 22:45:58.161 T:1902244704   DEBUG: OnPlayBackStarted: CApplication::OnPlayBackStarted
+2020-07-26 22:45:58.163 T:1636610784   DEBUG: Thread VideoPlayer start, auto delete: false
+2020-07-26 22:45:58.164 T:1636610784  NOTICE: Creating InputStream
+2020-07-26 22:45:58.164 T:1645003488   DEBUG: Thread MMALProcess start, auto delete: false
+2020-07-26 22:45:58.164 T:1645003488   DEBUG: CMMALRenderer::Run - starting
+2020-07-26 22:45:58.166 T:1636610784   ERROR: CVideoPlayer::OpenInputStream - error opening [/var/run/lirc/lircd]
+2020-07-26 22:45:58.166 T:1636610784  NOTICE: CVideoPlayer::OnExit()
+2020-07-26 22:45:58.166 T:1636610784   DEBUG: Thread VideoPlayer 1636610784 terminating
+2020-07-26 22:45:58.176 T:1902244704   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.image_decode input port 320 output port 321 m_handle 0x4824a58
+2020-07-26 22:45:58.177 T:1902244704   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.image_decode) - port(320), nBufferCountMin(2), nBufferCountActual(2), nBufferSize(314128), nBufferAlignment(16)
+2020-07-26 22:45:58.177 T:1756623584   DEBUG: Loading settings for /var/run/lirc/lircd
+2020-07-26 22:45:58.183 T:1902244704   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.resize input port 60 output port 61 m_handle 0x4836448
+2020-07-26 22:45:58.185 T:1902244704   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.egl_render input port 220 output port 221 m_handle 0x4841fc8
+2020-07-26 22:45:58.186 T:1902244704   DEBUG: COMXCoreComponent::UseEGLImage component(OMX.broadcom.egl_render) - port(221), nBufferCountMin(1), nBufferCountActual(1), nBufferSize(15360) nBufferAlignment(16)
+2020-07-26 22:45:58.191 T:1756623584   DEBUG: OnPlayBackStopped: CApplication::OnPlayBackStopped
+2020-07-26 22:45:58.192 T:1902240480   DEBUG: CAnnouncementManager - Announcement: OnStop from xbmc
+2020-07-26 22:45:58.192 T:1902240480   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnStop
+2020-07-26 22:45:58.210 T:1688204000   DEBUG: CPythonInvoker(1, /home/pi/.kodi/addons/plugin.video.netflix/service.py): start processing
+2020-07-26 22:45:58.215 T:1696596704   DEBUG: CPythonInvoker(0, /home/pi/.kodi/addons/service.xbmc.versioncheck/resources/lib/runner.py): start processing
+2020-07-26 22:45:58.257 T:1688204000   DEBUG: -->Python Interpreter Initialized<--
+2020-07-26 22:45:58.257 T:1688204000   DEBUG: CPythonInvoker(1, /home/pi/.kodi/addons/plugin.video.netflix/service.py): the source file to load is "/home/pi/.kodi/addons/plugin.video.netflix/service.py"
+2020-07-26 22:45:58.295 T:1688204000   DEBUG: CPythonInvoker(1, /home/pi/.kodi/addons/plugin.video.netflix/service.py): setting the Python path to /home/pi/.kodi/addons/plugin.video.netflix:/home/pi/.kodi/addons/script.module.addon.signals/lib:/home/pi/.kodi/addons/script.module.certifi/lib:/home/pi/.kodi/addons/script.module.chardet/lib:/home/pi/.kodi/addons/script.module.future/libs:/home/pi/.kodi/addons/script.module.idna/lib:/home/pi/.kodi/addons/script.module.inputstreamhelper/lib:/home/pi/.kodi/addons/script.module.requests/lib:/home/pi/.kodi/addons/script.module.urllib3/lib:/usr/share/kodi/addons/script.module.pycryptodome/lib:/usr/lib/python2.7:/usr/lib/python2.7/plat-arm-linux-gnueabihf:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/home/pi/.local/lib/python2.7/site-packages:/usr/local/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages/gtk-2.0
+2020-07-26 22:45:58.295 T:1688204000   DEBUG: CPythonInvoker(1, /home/pi/.kodi/addons/plugin.video.netflix/service.py): entering source directory /home/pi/.kodi/addons/plugin.video.netflix
+2020-07-26 22:45:58.296 T:1696596704   DEBUG: -->Python Interpreter Initialized<--
+2020-07-26 22:45:58.296 T:1696596704   DEBUG: CPythonInvoker(0, /home/pi/.kodi/addons/service.xbmc.versioncheck/resources/lib/runner.py): the source file to load is "/home/pi/.kodi/addons/service.xbmc.versioncheck/resources/lib/runner.py"
+2020-07-26 22:45:58.296 T:1696596704   DEBUG: CPythonInvoker(0, /home/pi/.kodi/addons/service.xbmc.versioncheck/resources/lib/runner.py): setting the Python path to /home/pi/.kodi/addons/service.xbmc.versioncheck/resources/lib:/usr/lib/python2.7:/usr/lib/python2.7/plat-arm-linux-gnueabihf:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/home/pi/.local/lib/python2.7/site-packages:/usr/local/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages/gtk-2.0
+2020-07-26 22:45:58.296 T:1696596704   DEBUG: CPythonInvoker(0, /home/pi/.kodi/addons/service.xbmc.versioncheck/resources/lib/runner.py): entering source directory /home/pi/.kodi/addons/service.xbmc.versioncheck/resources/lib
+2020-07-26 22:45:58.296 T:1688204000   DEBUG: CPythonInvoker(1, /home/pi/.kodi/addons/plugin.video.netflix/service.py): instantiating addon using automatically obtained id of "plugin.video.netflix" dependent on version 2.26.0 of the xbmc.python api
+2020-07-26 22:45:58.311 T:1730167520   DEBUG: GetMappingForDevice - device (2708:1001) mapped to CEC Adapter (type = cec)
+2020-07-26 22:45:58.314 T:1730167520   DEBUG: InitialiseFeature - using libCEC v4.0.4
+2020-07-26 22:45:58.314 T:1730167520   DEBUG: Initialise - initialised peripheral on 'RPI' with 2 features and 0 sub devices
+2020-07-26 22:45:58.314 T:1623192288   DEBUG: Thread CECAdapter start, auto delete: false
+2020-07-26 22:45:58.314 T:1730167520  NOTICE: Register - new cec device registered on cec->RPI: CEC Adapter (2708:1001)
+2020-07-26 22:45:58.314 T:1623192288   DEBUG: OpenConnection - opening a connection to the CEC adapter: RPI
+2020-07-26 22:45:58.314 T:1730167520   DEBUG: Thread PeripBusCEC 1730167520 terminating
+2020-07-26 22:45:58.347 T:1902244704   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.image_decode handle 0x4824a58
+2020-07-26 22:45:58.348 T:1902244704   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.resize handle 0x4836448
+2020-07-26 22:45:58.349 T:1902244704   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.egl_render handle 0x4841fc8
+2020-07-26 22:45:58.350 T:1902244704   DEBUG: DecodeJpegToTexture: decoded special://skin/extras/backgrounds/primary.jpg 1280x720
+2020-07-26 22:45:58.357 T:1902244704   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.image_decode input port 320 output port 321 m_handle 0x4789940
+2020-07-26 22:45:58.358 T:1902244704   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.image_decode) - port(320), nBufferCountMin(2), nBufferCountActual(2), nBufferSize(93824), nBufferAlignment(16)
+2020-07-26 22:45:58.360 T:1902244704   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.egl_render input port 220 output port 221 m_handle 0x47603e8
+2020-07-26 22:45:58.361 T:1902244704   DEBUG: COMXCoreComponent::UseEGLImage component(OMX.broadcom.egl_render) - port(221), nBufferCountMin(1), nBufferCountActual(1), nBufferSize(15360) nBufferAlignment(16)
+2020-07-26 22:45:58.376 T:1902244704   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.image_decode handle 0x4789940
+2020-07-26 22:45:58.378 T:1902244704   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.egl_render handle 0x47603e8
+2020-07-26 22:45:58.378 T:1902244704   DEBUG: DecodeJpegToTexture: decoded special://skin/extras/backgrounds/pattern1.jpg 900x506
+2020-07-26 22:45:58.392 T:1902244704   DEBUG: ------ Window Init (Pointer.xml) ------
+2020-07-26 22:45:58.392 T:1902244704   DEBUG: ------ Window Init () ------
+2020-07-26 22:45:58.559 T:1902240480   DEBUG: CAnnouncementManager - Announcement: OnChanged from xbmc
+2020-07-26 22:45:58.559 T:1902240480   DEBUG: GOT ANNOUNCEMENT, type: 1024, from xbmc, message OnChanged
+2020-07-26 22:45:58.560 T:1902240480   DEBUG: CAnnouncementManager - Announcement: OnPlay from xbmc
+2020-07-26 22:45:58.560 T:1902240480   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnPlay
+2020-07-26 22:45:58.571 T:1696596704   DEBUG: CPythonInvoker(0, /home/pi/.kodi/addons/service.xbmc.versioncheck/resources/lib/runner.py): instantiating addon using automatically obtained id of "service.xbmc.versioncheck" dependent on version 2.14.0 of the xbmc.python api
+2020-07-26 22:45:58.659 T:1902244704   DEBUG: ------ Window Init (DialogBusy.xml) ------
+2020-07-26 22:45:58.760 T:1902244704  NOTICE: CVideoPlayer::CloseFile()
+2020-07-26 22:45:58.760 T:1902244704   DEBUG: DeleteRenderer - deleting renderer
+2020-07-26 22:45:58.760 T:1902244704   DEBUG: CMMALRenderer::~CMMALRenderer
+2020-07-26 22:45:58.760 T:1902244704   DEBUG: CMMALRenderer::UnInitMMAL
+2020-07-26 22:45:58.760 T:1645003488   DEBUG: CMMALRenderer::Run - stopping
+2020-07-26 22:45:58.760 T:1645003488   DEBUG: Thread MMALProcess 1645003488 terminating
+2020-07-26 22:45:58.761 T:1902244704  NOTICE: VideoPlayer: waiting for threads to exit
+2020-07-26 22:45:58.761 T:1902244704  NOTICE: VideoPlayer: finished waiting
+2020-07-26 22:45:58.764 T:1902244704   DEBUG: Radio UECP (RDS) Processor - delete ~CDVDRadioRDSData
+2020-07-26 22:45:58.764 T:1902244704   DEBUG: CMMALPool::~CMMALPool Destroying pool 0x47e6aa0 for port vc.ril.video_decode:out:0(I420)
+2020-07-26 22:45:58.765 T:1902244704   DEBUG: LogindUPowerSyscall - Received unknown signal NameAcquired
+2020-07-26 22:45:58.766 T:1902244704   DEBUG: ------ Window Init (DialogNotification.xml) ------
+2020-07-26 22:45:58.811 T:1902244704   DEBUG: ------ Window Deinit (DialogBusy.xml) ------
+2020-07-26 22:45:59.027 T:1679811296   DEBUG: CZeroconfAvahi::groupCallback: Service successfully established
+2020-07-26 22:45:59.295 T:1696596704   DEBUG: Previous line repeats 1 times.
+2020-07-26 22:45:59.296 T:1696596704   DEBUG: CAddonSettings[service.xbmc.versioncheck]: loading setting definitions
+2020-07-26 22:45:59.296 T:1696596704   DEBUG: CAddonSettings[service.xbmc.versioncheck]: trying to load setting definitions from old format...
+2020-07-26 22:45:59.296 T:1696596704   DEBUG: CAddonSettings[service.xbmc.versioncheck]: loading setting values
+2020-07-26 22:45:59.297 T:1696596704   DEBUG: CSettingsManager: requested setting (lastnotified_stable) was not found.
+2020-07-26 22:45:59.297 T:1696596704   DEBUG: CAddonSettings[service.xbmc.versioncheck]: failed to find definition for setting lastnotified_stable. Creating a setting on-the-fly...
+2020-07-26 22:45:59.297 T:1696596704   DEBUG: Version Check: Version 0.5.5 started
+2020-07-26 22:45:59.310 T:1688204000   DEBUG: CAddonSettings[plugin.video.netflix]: loading setting definitions
+2020-07-26 22:45:59.310 T:1688204000   DEBUG: CAddonSettings[plugin.video.netflix]: trying to load setting definitions from old format...
+2020-07-26 22:45:59.554 T:1623192288   DEBUG: OpenConnection - connection to the CEC adapter opened
+2020-07-26 22:45:59.554 T:1623192288   DEBUG: SetConfigurationFromLibCEC - settings updated by libCEC
+2020-07-26 22:45:59.555 T:1654633184   DEBUG: Thread CECAdapterUpdate start, auto delete: false
+2020-07-26 22:46:00.223 T:1902244704   DEBUG: ------ Window Deinit (Pointer.xml) ------
+2020-07-26 22:46:00.547 T:1688204000   ERROR: [plugin.video.netflix (0)] Background services do not start due to the following error
+2020-07-26 22:46:00.552 T:1688204000   ERROR: [plugin.video.netflix (0)] Traceback (most recent call last):
+                                              File "/home/pi/.kodi/addons/plugin.video.netflix/resources/lib/run_service.py", line 48, in init_servers
+                                                from resources.lib.services.msl.http_server import MSLTCPServer
+                                              File "/home/pi/.kodi/addons/plugin.video.netflix/resources/lib/services/msl/http_server.py", line 32, in <module>
+                                                from .msl_handler import MSLHandler
+                                              File "/home/pi/.kodi/addons/plugin.video.netflix/resources/lib/services/msl/msl_handler.py", line 25, in <module>
+                                                from .msl_requests import MSLRequests
+                                              File "/home/pi/.kodi/addons/plugin.video.netflix/resources/lib/services/msl/msl_requests.py", line 21, in <module>
+                                                from resources.lib.services.msl.msl_request_builder import MSLRequestBuilder
+                                              File "/home/pi/.kodi/addons/plugin.video.netflix/resources/lib/services/msl/msl_request_builder.py", line 33, in <module>
+                                                from .default_crypto import DefaultMSLCrypto as MSLCrypto
+                                              File "/home/pi/.kodi/addons/plugin.video.netflix/resources/lib/services/msl/default_crypto.py", line 28, in <module>
+                                                from Cryptodome.Util import Padding
+                                            ImportError: cannot import name Padding
+2020-07-26 22:46:00.557 T:1688204000    INFO: CPythonInvoker(1, /home/pi/.kodi/addons/plugin.video.netflix/service.py): script successfully run
+2020-07-26 22:46:00.557 T:1688204000   DEBUG: onExecutionDone(1, /home/pi/.kodi/addons/plugin.video.netflix/service.py)
+2020-07-26 22:46:00.636 T:1688204000    INFO: Python interpreter stopped
+2020-07-26 22:46:00.636 T:1688204000   DEBUG: Thread LanguageInvoker 1688204000 terminating
+2020-07-26 22:46:01.112 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 0, event.motion.y: 0
+2020-07-26 22:46:01.127 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 0, event.motion.y: 5
+2020-07-26 22:46:01.142 T:1902244704   DEBUG: ------ Window Init (Pointer.xml) ------
+2020-07-26 22:46:01.143 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 0, event.motion.y: 26
+2020-07-26 22:46:01.159 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 0, event.motion.y: 95
+2020-07-26 22:46:01.175 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 2, event.motion.y: 193
+2020-07-26 22:46:01.191 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 4, event.motion.y: 287
+2020-07-26 22:46:01.207 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 2, event.motion.y: 373
+2020-07-26 22:46:01.223 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 4, event.motion.y: 459
+2020-07-26 22:46:01.239 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 12, event.motion.y: 543
+2020-07-26 22:46:01.255 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 36, event.motion.y: 615
+2020-07-26 22:46:01.271 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 70, event.motion.y: 671
+2020-07-26 22:46:01.287 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 92, event.motion.y: 707
+2020-07-26 22:46:01.303 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 106, event.motion.y: 729
+2020-07-26 22:46:01.319 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 112, event.motion.y: 741
+2020-07-26 22:46:01.335 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 113, event.motion.y: 744
+2020-07-26 22:46:01.399 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 113, event.motion.y: 748
+2020-07-26 22:46:01.415 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 114, event.motion.y: 761
+2020-07-26 22:46:01.431 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 120, event.motion.y: 779
+2020-07-26 22:46:01.447 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 125, event.motion.y: 810
+2020-07-26 22:46:01.455 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/game/]: refreshing..
+2020-07-26 22:46:01.463 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 134, event.motion.y: 848
+2020-07-26 22:46:01.479 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 147, event.motion.y: 882
+2020-07-26 22:46:01.495 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 167, event.motion.y: 915
+2020-07-26 22:46:01.511 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 205, event.motion.y: 964
+2020-07-26 22:46:01.518 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/video/]: refreshing..
+2020-07-26 22:46:01.518 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/audio/]: refreshing..
+2020-07-26 22:46:01.518 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/game/]: refreshing..
+2020-07-26 22:46:01.518 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/executable/]: refreshing..
+2020-07-26 22:46:01.519 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/image/]: refreshing..
+2020-07-26 22:46:01.527 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 244, event.motion.y: 1010
+2020-07-26 22:46:01.543 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 265, event.motion.y: 1045
+2020-07-26 22:46:01.558 T:1688204000   DEBUG: Thread JobWorker start, auto delete: true
+2020-07-26 22:46:01.559 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 271, event.motion.y: 1065
+2020-07-26 22:46:01.571 T:1688204000   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.image_decode input port 320 output port 321 m_handle 0x6d10b6d0
+2020-07-26 22:46:01.573 T:1688204000   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.image_decode) - port(320), nBufferCountMin(2), nBufferCountActual(2), nBufferSize(81920), nBufferAlignment(16)
+2020-07-26 22:46:01.575 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 273, event.motion.y: 1079
+2020-07-26 22:46:01.579 T:1688204000   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.egl_render input port 220 output port 221 m_handle 0x6d139328
+2020-07-26 22:46:01.581 T:1688204000   DEBUG: COMXCoreComponent::UseEGLImage component(OMX.broadcom.egl_render) - port(221), nBufferCountMin(1), nBufferCountActual(1), nBufferSize(15360) nBufferAlignment(16)
+2020-07-26 22:46:01.591 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 273, event.motion.y: 1080
+2020-07-26 22:46:01.593 T:1902244704   DEBUG: CDirectoryProvider[addons://]: refreshing..
+2020-07-26 22:46:01.607 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 273, event.motion.y: 1080
+2020-07-26 22:46:01.610 T:1688204000   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.image_decode handle 0x6d10b6d0
+2020-07-26 22:46:01.610 T:1756623584   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.image_decode input port 320 output port 321 m_handle 0x70329ef8
+2020-07-26 22:46:01.611 T:1756623584   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.image_decode) - port(320), nBufferCountMin(2), nBufferCountActual(2), nBufferSize(81920), nBufferAlignment(16)
+2020-07-26 22:46:01.611 T:1688204000   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.egl_render handle 0x6d139328
+2020-07-26 22:46:01.611 T:1688204000   DEBUG: DecodeJpegToTexture: decoded special://masterprofile/Thumbnails/4/4e4b0c47.jpg 512x512
+2020-07-26 22:46:01.614 T:1756623584   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.egl_render input port 220 output port 221 m_handle 0x70302d40
+2020-07-26 22:46:01.615 T:1756623584   DEBUG: COMXCoreComponent::UseEGLImage component(OMX.broadcom.egl_render) - port(221), nBufferCountMin(1), nBufferCountActual(1), nBufferSize(15360) nBufferAlignment(16)
+2020-07-26 22:46:01.619 T:1756623584   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.image_decode handle 0x70329ef8
+2020-07-26 22:46:01.620 T:1756623584   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.egl_render handle 0x70302d40
+2020-07-26 22:46:01.620 T:1756623584   DEBUG: DecodeJpegToTexture: decoded special://masterprofile/Thumbnails/3/3dc8e8d7.jpg 256x256
+2020-07-26 22:46:01.636 T:1777722080   DEBUG: CAddonMgr::GetAvailableUpdates took 41 ms
+2020-07-26 22:46:01.735 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 272, event.motion.y: 1080
+2020-07-26 22:46:01.738 T:1902244704   DEBUG: CDirectoryProvider[sources://pictures/]: refreshing..
+2020-07-26 22:46:01.815 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 272, event.motion.y: 1080
+2020-07-26 22:46:01.831 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 272, event.motion.y: 1079
+2020-07-26 22:46:01.847 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 272, event.motion.y: 1074
+2020-07-26 22:46:01.863 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 270, event.motion.y: 1068
+2020-07-26 22:46:01.879 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 270, event.motion.y: 1060
+2020-07-26 22:46:01.895 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 269, event.motion.y: 1054
+2020-07-26 22:46:01.911 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 269, event.motion.y: 1050
+2020-07-26 22:46:01.922 T:1902244704   DEBUG: CDirectoryProvider[library://video/]: refreshing..
+2020-07-26 22:46:01.922 T:1902244704   DEBUG: CDirectoryProvider[sources://video/]: refreshing..
+2020-07-26 22:46:01.923 T:1902244704   DEBUG: CDirectoryProvider[special://videoplaylists/]: refreshing..
+2020-07-26 22:46:01.924 T:1777722080   DEBUG: CMultiPathDirectory::GetDirectory(multipath://special%3a%2f%2fprofile%2fplaylists%2fvideo/special%3a%2f%2fprofile%2fplaylists%2fmixed/)
+2020-07-26 22:46:01.924 T:1777722080   DEBUG: Getting Directory (special://profile/playlists/video)
+2020-07-26 22:46:01.925 T:1777722080   DEBUG: Getting Directory (special://profile/playlists/mixed)
+2020-07-26 22:46:01.926 T:1777722080   DEBUG: CMultiPathDirectory::MergeItems, items = 0
+2020-07-26 22:46:01.927 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 269, event.motion.y: 1046
+2020-07-26 22:46:01.943 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 270, event.motion.y: 1044
+2020-07-26 22:46:01.959 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 271, event.motion.y: 1040
+2020-07-26 22:46:01.975 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 273, event.motion.y: 1036
+2020-07-26 22:46:01.991 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 274, event.motion.y: 1031
+2020-07-26 22:46:02.007 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 278, event.motion.y: 1026
+2020-07-26 22:46:02.023 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 281, event.motion.y: 1021
+2020-07-26 22:46:02.039 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 284, event.motion.y: 1014
+2020-07-26 22:46:02.055 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 288, event.motion.y: 1004
+2020-07-26 22:46:02.071 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 290, event.motion.y: 993
+2020-07-26 22:46:02.087 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 293, event.motion.y: 981
+2020-07-26 22:46:02.103 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 295, event.motion.y: 972
+2020-07-26 22:46:02.119 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 295, event.motion.y: 963
+2020-07-26 22:46:02.135 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 295, event.motion.y: 954
+2020-07-26 22:46:02.151 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 294, event.motion.y: 949
+2020-07-26 22:46:02.167 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 294, event.motion.y: 948
+2020-07-26 22:46:02.231 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 294, event.motion.y: 947
+2020-07-26 22:46:02.247 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 295, event.motion.y: 944
+2020-07-26 22:46:02.263 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 296, event.motion.y: 941
+2020-07-26 22:46:02.279 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 298, event.motion.y: 935
+2020-07-26 22:46:02.295 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 299, event.motion.y: 931
+2020-07-26 22:46:02.311 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 301, event.motion.y: 927
+2020-07-26 22:46:02.327 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 303, event.motion.y: 915
+2020-07-26 22:46:02.343 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 308, event.motion.y: 898
+2020-07-26 22:46:02.359 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 311, event.motion.y: 885
+2020-07-26 22:46:02.375 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 313, event.motion.y: 876
+2020-07-26 22:46:02.391 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 314, event.motion.y: 867
+2020-07-26 22:46:02.407 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 317, event.motion.y: 856
+2020-07-26 22:46:02.423 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 320, event.motion.y: 843
+2020-07-26 22:46:02.439 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 325, event.motion.y: 829
+2020-07-26 22:46:02.455 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 328, event.motion.y: 820
+2020-07-26 22:46:02.471 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 329, event.motion.y: 814
+2020-07-26 22:46:02.487 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 329, event.motion.y: 812
+2020-07-26 22:46:02.679 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 330, event.motion.y: 811
+2020-07-26 22:46:02.695 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 333, event.motion.y: 805
+2020-07-26 22:46:02.711 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 337, event.motion.y: 798
+2020-07-26 22:46:02.727 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 340, event.motion.y: 792
+2020-07-26 22:46:02.743 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 341, event.motion.y: 787
+2020-07-26 22:46:02.759 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 343, event.motion.y: 780
+2020-07-26 22:46:02.775 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 344, event.motion.y: 774
+2020-07-26 22:46:02.791 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 345, event.motion.y: 770
+2020-07-26 22:46:02.807 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 345, event.motion.y: 768
+2020-07-26 22:46:03.335 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 346, event.motion.y: 768
+2020-07-26 22:46:03.351 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 353, event.motion.y: 768
+2020-07-26 22:46:03.367 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 371, event.motion.y: 767
+2020-07-26 22:46:03.383 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 406, event.motion.y: 765
+2020-07-26 22:46:03.399 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 461, event.motion.y: 755
+2020-07-26 22:46:03.415 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 524, event.motion.y: 734
+2020-07-26 22:46:03.431 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 580, event.motion.y: 706
+2020-07-26 22:46:03.447 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 626, event.motion.y: 680
+2020-07-26 22:46:03.455 T:1765016288   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.image_decode input port 320 output port 321 m_handle 0x6f99fe60
+2020-07-26 22:46:03.456 T:1765016288   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.image_decode) - port(320), nBufferCountMin(2), nBufferCountActual(2), nBufferSize(81920), nBufferAlignment(16)
+2020-07-26 22:46:03.459 T:1765016288   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.egl_render input port 220 output port 221 m_handle 0x6f9b5820
+2020-07-26 22:46:03.460 T:1765016288   DEBUG: COMXCoreComponent::UseEGLImage component(OMX.broadcom.egl_render) - port(221), nBufferCountMin(1), nBufferCountActual(1), nBufferSize(15360) nBufferAlignment(16)
+2020-07-26 22:46:03.463 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 658, event.motion.y: 658
+2020-07-26 22:46:03.479 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 678, event.motion.y: 638
+2020-07-26 22:46:03.482 T:1765016288   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.image_decode handle 0x6f99fe60
+2020-07-26 22:46:03.484 T:1765016288   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.egl_render handle 0x6f9b5820
+2020-07-26 22:46:03.484 T:1765016288   DEBUG: DecodeJpegToTexture: decoded special://masterprofile/Thumbnails/6/6db44b0a.jpg 1280x720
+2020-07-26 22:46:03.495 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 688, event.motion.y: 616
+2020-07-26 22:46:03.511 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 688, event.motion.y: 605
+2020-07-26 22:46:03.527 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 688, event.motion.y: 600
+2020-07-26 22:46:03.543 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 688, event.motion.y: 599
+2020-07-26 22:46:03.559 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 688, event.motion.y: 597
+2020-07-26 22:46:03.655 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 689, event.motion.y: 594
+2020-07-26 22:46:03.671 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 691, event.motion.y: 591
+2020-07-26 22:46:03.687 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 692, event.motion.y: 589
+2020-07-26 22:46:03.703 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 692, event.motion.y: 587
+2020-07-26 22:46:03.719 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 693, event.motion.y: 586
+2020-07-26 22:46:03.735 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 693, event.motion.y: 585
+2020-07-26 22:46:03.751 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 694, event.motion.y: 584
+2020-07-26 22:46:03.767 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 694, event.motion.y: 582
+2020-07-26 22:46:03.783 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 695, event.motion.y: 581
+2020-07-26 22:46:03.799 T:1882190560   DEBUG: CLibInputPointer::ProcessButton - event.type: 4, event.button.button: 1, event.button.x: 695, event.button.y: 581
+2020-07-26 22:46:03.959 T:1882190560   DEBUG: CLibInputPointer::ProcessButton - event.type: 5, event.button.button: 1, event.button.x: 695, event.button.y: 581
+2020-07-26 22:46:03.970 T:1902244704   DEBUG: ProcessMouse: trying mouse action leftclick
+2020-07-26 22:46:03.971 T:1902244704   DEBUG: Activating window ID: 10025
+2020-07-26 22:46:04.135 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 695, event.motion.y: 581
+2020-07-26 22:46:04.151 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 695, event.motion.y: 582
+2020-07-26 22:46:04.167 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 695, event.motion.y: 584
+2020-07-26 22:46:04.183 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 693, event.motion.y: 586
+2020-07-26 22:46:04.199 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 691, event.motion.y: 589
+2020-07-26 22:46:04.215 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 689, event.motion.y: 591
+2020-07-26 22:46:04.231 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 685, event.motion.y: 594
+2020-07-26 22:46:04.247 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 681, event.motion.y: 596
+2020-07-26 22:46:04.263 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 675, event.motion.y: 598
+2020-07-26 22:46:04.279 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 667, event.motion.y: 599
+2020-07-26 22:46:04.295 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 657, event.motion.y: 601
+2020-07-26 22:46:04.300 T:1902244704   DEBUG: ------ Window Deinit (Home.xml) ------
+2020-07-26 22:46:04.300 T:1902244704   DEBUG: FreeVisualisation() done
+2020-07-26 22:46:04.301 T:1902244704   DEBUG: ------ Window Deinit (DialogNotification.xml) ------
+2020-07-26 22:46:04.311 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 648, event.motion.y: 602
+2020-07-26 22:46:04.327 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 638, event.motion.y: 602
+2020-07-26 22:46:04.343 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 631, event.motion.y: 602
+2020-07-26 22:46:04.352 T:1902244704   DEBUG: ------ Window Init (MyVideoNav.xml) ------
+2020-07-26 22:46:04.352 T:1902244704    INFO: Loading skin file: MyVideoNav.xml, load type: KEEP_IN_MEMORY
+2020-07-26 22:46:04.359 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 626, event.motion.y: 602
+2020-07-26 22:46:04.375 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 623, event.motion.y: 602
+2020-07-26 22:46:04.391 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 621, event.motion.y: 602
+2020-07-26 22:46:04.407 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 619, event.motion.y: 602
+2020-07-26 22:46:04.423 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 616, event.motion.y: 603
+2020-07-26 22:46:04.439 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 612, event.motion.y: 604
+2020-07-26 22:46:04.455 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 608, event.motion.y: 604
+2020-07-26 22:46:04.471 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 605, event.motion.y: 605
+2020-07-26 22:46:04.487 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 602, event.motion.y: 605
+2020-07-26 22:46:04.503 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 599, event.motion.y: 605
+2020-07-26 22:46:04.519 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 597, event.motion.y: 605
+2020-07-26 22:46:04.535 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 595, event.motion.y: 605
+2020-07-26 22:46:04.551 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 594, event.motion.y: 605
+2020-07-26 22:46:04.555 T:1696596704   DEBUG: Version Check: Version installed {u'major': 18, u'tag': u'stable', u'minor': 2, u'revision': u'20190428-a94ccc8ba5'}
+2020-07-26 22:46:04.555 T:1696596704   DEBUG: Version Check: Version available  {u'major': u'18', u'extrainfo': u'final', u'tagversion': u'', u'tag': u'stable', u'addon_support': u'yes', u'minor': u'7', u'revision': u'20200520-f14f7a8'}
+2020-07-26 22:46:04.555 T:1696596704   DEBUG: Version Check: You are running an older minor version
+2020-07-26 22:46:04.567 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 593, event.motion.y: 605
+2020-07-26 22:46:04.589 T:1902244704   DEBUG: CGUIMediaWindow::GetDirectory (plugin://plugin.video.netflix/)
+2020-07-26 22:46:04.589 T:1902244704   DEBUG:   ParentPath = [plugin://plugin.video.netflix/]
+2020-07-26 22:46:04.590 T:1645003488   DEBUG: Thread waiting start, auto delete: false
+2020-07-26 22:46:04.599 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 592, event.motion.y: 605
+2020-07-26 22:46:04.647 T:1688204000   DEBUG: CAddonDatabase::SetLastUsed[plugin.video.netflix] took 57 ms
+2020-07-26 22:46:04.648 T:1645003488   DEBUG: StartScript - calling plugin Netflix('plugin://plugin.video.netflix/','1','','resume:false')
+2020-07-26 22:46:04.648 T:1590686432   DEBUG: Thread LanguageInvoker start, auto delete: false
+2020-07-26 22:46:04.648 T:1590686432    INFO: initializing python engine.
+2020-07-26 22:46:04.648 T:1590686432   DEBUG: CPythonInvoker(2, /home/pi/.kodi/addons/plugin.video.netflix/addon.py): start processing
+2020-07-26 22:46:04.684 T:1590686432   DEBUG: -->Python Interpreter Initialized<--
+2020-07-26 22:46:04.684 T:1590686432   DEBUG: CPythonInvoker(2, /home/pi/.kodi/addons/plugin.video.netflix/addon.py): the source file to load is "/home/pi/.kodi/addons/plugin.video.netflix/addon.py"
+2020-07-26 22:46:04.686 T:1590686432   DEBUG: CPythonInvoker(2, /home/pi/.kodi/addons/plugin.video.netflix/addon.py): setting the Python path to /home/pi/.kodi/addons/plugin.video.netflix:/home/pi/.kodi/addons/script.module.addon.signals/lib:/home/pi/.kodi/addons/script.module.certifi/lib:/home/pi/.kodi/addons/script.module.chardet/lib:/home/pi/.kodi/addons/script.module.future/libs:/home/pi/.kodi/addons/script.module.idna/lib:/home/pi/.kodi/addons/script.module.inputstreamhelper/lib:/home/pi/.kodi/addons/script.module.requests/lib:/home/pi/.kodi/addons/script.module.urllib3/lib:/usr/share/kodi/addons/script.module.pycryptodome/lib:/usr/lib/python2.7:/usr/lib/python2.7/plat-arm-linux-gnueabihf:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/home/pi/.local/lib/python2.7/site-packages:/usr/local/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages/gtk-2.0
+2020-07-26 22:46:04.686 T:1590686432   DEBUG: CPythonInvoker(2, /home/pi/.kodi/addons/plugin.video.netflix/addon.py): entering source directory /home/pi/.kodi/addons/plugin.video.netflix
+2020-07-26 22:46:04.686 T:1590686432   DEBUG: CPythonInvoker(2, /home/pi/.kodi/addons/plugin.video.netflix/addon.py): instantiating addon using automatically obtained id of "plugin.video.netflix" dependent on version 2.26.0 of the xbmc.python api
+2020-07-26 22:46:04.690 T:1902244704   DEBUG: ------ Window Init (DialogBusy.xml) ------
+2020-07-26 22:46:04.695 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 591, event.motion.y: 605
+2020-07-26 22:46:05.390 T:1590686432   DEBUG: CAddonSettings[plugin.video.netflix]: loading setting definitions
+2020-07-26 22:46:05.390 T:1590686432   DEBUG: CAddonSettings[plugin.video.netflix]: trying to load setting definitions from old format...
+2020-07-26 22:46:06.055 T:1902244704   DEBUG: ------ Window Init (DialogConfirm.xml) ------
+2020-07-26 22:46:06.055 T:1902244704    INFO: Loading skin file: DialogConfirm.xml, load type: KEEP_IN_MEMORY
+2020-07-26 22:46:08.535 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 593, event.motion.y: 605
+2020-07-26 22:46:08.551 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 601, event.motion.y: 606
+2020-07-26 22:46:08.567 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 617, event.motion.y: 608
+2020-07-26 22:46:08.583 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 637, event.motion.y: 608
+2020-07-26 22:46:08.599 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 655, event.motion.y: 608
+2020-07-26 22:46:08.615 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 667, event.motion.y: 608
+2020-07-26 22:46:08.631 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 668, event.motion.y: 608
+2020-07-26 22:46:08.791 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 669, event.motion.y: 608
+2020-07-26 22:46:08.823 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 671, event.motion.y: 608
+2020-07-26 22:46:08.839 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 679, event.motion.y: 609
+2020-07-26 22:46:08.855 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 692, event.motion.y: 611
+2020-07-26 22:46:08.871 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 707, event.motion.y: 614
+2020-07-26 22:46:08.887 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 722, event.motion.y: 617
+2020-07-26 22:46:08.904 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 737, event.motion.y: 621
+2020-07-26 22:46:08.919 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 750, event.motion.y: 624
+2020-07-26 22:46:08.935 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 759, event.motion.y: 627
+2020-07-26 22:46:08.951 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 766, event.motion.y: 627
+2020-07-26 22:46:08.967 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 772, event.motion.y: 628
+2020-07-26 22:46:08.983 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 776, event.motion.y: 627
+2020-07-26 22:46:08.999 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 779, event.motion.y: 627
+2020-07-26 22:46:09.015 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 780, event.motion.y: 627
+2020-07-26 22:46:09.031 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 782, event.motion.y: 627
+2020-07-26 22:46:09.127 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 784, event.motion.y: 627
+2020-07-26 22:46:09.143 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 789, event.motion.y: 627
+2020-07-26 22:46:09.159 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 794, event.motion.y: 628
+2020-07-26 22:46:09.175 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 798, event.motion.y: 630
+2020-07-26 22:46:09.191 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 802, event.motion.y: 632
+2020-07-26 22:46:09.207 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 806, event.motion.y: 634
+2020-07-26 22:46:09.223 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 810, event.motion.y: 637
+2020-07-26 22:46:09.239 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 814, event.motion.y: 639
+2020-07-26 22:46:09.255 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 820, event.motion.y: 641
+2020-07-26 22:46:09.271 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 824, event.motion.y: 643
+2020-07-26 22:46:09.287 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 826, event.motion.y: 644
+2020-07-26 22:46:09.303 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 828, event.motion.y: 645
+2020-07-26 22:46:09.319 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 830, event.motion.y: 645
+2020-07-26 22:46:09.367 T:1882190560   DEBUG: Previous line repeats 2 times.
+2020-07-26 22:46:09.367 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 831, event.motion.y: 646
+2020-07-26 22:46:09.383 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 832, event.motion.y: 646
+2020-07-26 22:46:09.399 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 834, event.motion.y: 648
+2020-07-26 22:46:09.431 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 836, event.motion.y: 650
+2020-07-26 22:46:09.447 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 838, event.motion.y: 652
+2020-07-26 22:46:09.463 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 839, event.motion.y: 653
+2020-07-26 22:46:09.479 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 842, event.motion.y: 655
+2020-07-26 22:46:09.495 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 843, event.motion.y: 656
+2020-07-26 22:46:09.511 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 843, event.motion.y: 657
+2020-07-26 22:46:09.559 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 843, event.motion.y: 658
+2020-07-26 22:46:14.590 T:1902244704   DEBUG: Previous line repeats 12 times.
+2020-07-26 22:46:14.590 T:1902244704   DEBUG: ------ Window Deinit (Pointer.xml) ------
+2020-07-26 22:46:14.695 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 843, event.motion.y: 658
+2020-07-26 22:46:14.736 T:1696596704   DEBUG: CSettingsManager: requested setting (lastnotified_version) was not found.
+2020-07-26 22:46:14.736 T:1696596704   DEBUG: Version Check: Already notified one time for upgrading.
+2020-07-26 22:46:14.736 T:1696596704    INFO: CPythonInvoker(0, /home/pi/.kodi/addons/service.xbmc.versioncheck/resources/lib/runner.py): script successfully run
+2020-07-26 22:46:14.736 T:1696596704   DEBUG: onExecutionDone(0, /home/pi/.kodi/addons/service.xbmc.versioncheck/resources/lib/runner.py)
+2020-07-26 22:46:14.816 T:1696596704    INFO: Python interpreter stopped
+2020-07-26 22:46:14.816 T:1696596704   DEBUG: Thread LanguageInvoker 1696596704 terminating
+2020-07-26 22:46:14.839 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 843, event.motion.y: 658
+2020-07-26 22:46:15.319 T:1882190560   DEBUG: Previous line repeats 12 times.
+2020-07-26 22:46:15.319 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 844, event.motion.y: 658
+2020-07-26 22:46:15.335 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 845, event.motion.y: 658
+2020-07-26 22:46:15.351 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 847, event.motion.y: 658
+2020-07-26 22:46:15.356 T:1902244704   DEBUG: ------ Window Init (Pointer.xml) ------
+2020-07-26 22:46:15.367 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 848, event.motion.y: 658
+2020-07-26 22:46:15.383 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 850, event.motion.y: 658
+2020-07-26 22:46:15.399 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 853, event.motion.y: 658
+2020-07-26 22:46:15.415 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 856, event.motion.y: 659
+2020-07-26 22:46:15.431 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 859, event.motion.y: 659
+2020-07-26 22:46:15.447 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 863, event.motion.y: 660
+2020-07-26 22:46:15.463 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 864, event.motion.y: 660
+2020-07-26 22:46:15.479 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 865, event.motion.y: 660
+2020-07-26 22:46:15.495 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 866, event.motion.y: 660
+2020-07-26 22:46:15.831 T:1882190560   DEBUG: CLibInputPointer::ProcessButton - event.type: 4, event.button.button: 1, event.button.x: 866, event.button.y: 660
+2020-07-26 22:46:15.927 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 866, event.motion.y: 660
+2020-07-26 22:46:15.959 T:1882190560   DEBUG: CLibInputPointer::ProcessButton - event.type: 5, event.button.button: 1, event.button.x: 866, event.button.y: 660
+2020-07-26 22:46:15.970 T:1902244704   DEBUG: ProcessMouse: trying mouse action leftclick
+2020-07-26 22:46:16.039 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 866, event.motion.y: 660
+2020-07-26 22:46:16.245 T:1902244704   DEBUG: Previous line repeats 3 times.
+2020-07-26 22:46:16.245 T:1902244704   DEBUG: ------ Window Deinit (DialogConfirm.xml) ------
+2020-07-26 22:46:16.247 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 866, event.motion.y: 660
+2020-07-26 22:46:16.254 T:1645003488   ERROR: GetDirectory - Error getting plugin://plugin.video.netflix/
+2020-07-26 22:46:16.254 T:1645003488   DEBUG: Thread waiting 1645003488 terminating
+2020-07-26 22:46:16.258 T:1590686432    INFO: CPythonInvoker(2, /home/pi/.kodi/addons/plugin.video.netflix/addon.py): script successfully run
+2020-07-26 22:46:16.263 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 865, event.motion.y: 660
+2020-07-26 22:46:16.287 T:1902244704   DEBUG: Previous line repeats 1 times.
+2020-07-26 22:46:16.287 T:1902244704   DEBUG: ------ Window Deinit (DialogBusy.xml) ------
+2020-07-26 22:46:16.289 T:1902244704   ERROR: CGUIMediaWindow::GetDirectory(plugin://plugin.video.netflix/) failed
+2020-07-26 22:46:16.289 T:1902244704   DEBUG: CGUIMediaWindow::GetDirectory ()
+2020-07-26 22:46:16.289 T:1902244704   DEBUG:   ParentPath = [plugin://plugin.video.netflix/]
+2020-07-26 22:46:16.295 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 863, event.motion.y: 660
+2020-07-26 22:46:16.303 T:1645003488   DEBUG: Thread waiting start, auto delete: false
+2020-07-26 22:46:16.307 T:1645003488   DEBUG: Thread waiting 1645003488 terminating
+2020-07-26 22:46:16.311 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 861, event.motion.y: 660
+2020-07-26 22:46:16.313 T:1645003488   DEBUG: Thread BackgroundLoader start, auto delete: false
+2020-07-26 22:46:16.327 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 857, event.motion.y: 660
+2020-07-26 22:46:16.336 T:1645003488   DEBUG: Thread BackgroundLoader 1645003488 terminating
+2020-07-26 22:46:16.343 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 853, event.motion.y: 659
+2020-07-26 22:46:16.359 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 849, event.motion.y: 657
+2020-07-26 22:46:16.375 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 845, event.motion.y: 655
+2020-07-26 22:46:16.391 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 839, event.motion.y: 652
+2020-07-26 22:46:16.407 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 829, event.motion.y: 649
+2020-07-26 22:46:16.423 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 819, event.motion.y: 646
+2020-07-26 22:46:16.439 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 813, event.motion.y: 645
+2020-07-26 22:46:16.455 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 809, event.motion.y: 644
+2020-07-26 22:46:16.487 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 807, event.motion.y: 644
+2020-07-26 22:46:16.503 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 805, event.motion.y: 644
+2020-07-26 22:46:16.519 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 802, event.motion.y: 644
+2020-07-26 22:46:16.535 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 798, event.motion.y: 644
+2020-07-26 22:46:16.551 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 796, event.motion.y: 645
+2020-07-26 22:46:16.567 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 795, event.motion.y: 645
+2020-07-26 22:46:16.599 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 794, event.motion.y: 645
+2020-07-26 22:46:16.679 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 794, event.motion.y: 643
+2020-07-26 22:46:16.695 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 792, event.motion.y: 636
+2020-07-26 22:46:16.711 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 784, event.motion.y: 622
+2020-07-26 22:46:16.727 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 775, event.motion.y: 606
+2020-07-26 22:46:16.743 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 764, event.motion.y: 588
+2020-07-26 22:46:16.759 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 754, event.motion.y: 570
+2020-07-26 22:46:16.775 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 746, event.motion.y: 550
+2020-07-26 22:46:16.791 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 737, event.motion.y: 529
+2020-07-26 22:46:16.807 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 730, event.motion.y: 513
+2020-07-26 22:46:16.823 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 725, event.motion.y: 502
+2020-07-26 22:46:16.839 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 723, event.motion.y: 497
+2020-07-26 22:46:16.855 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 722, event.motion.y: 497
+2020-07-26 22:46:17.176 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 722, event.motion.y: 493
+2020-07-26 22:46:17.191 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 722, event.motion.y: 476
+2020-07-26 22:46:17.207 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 723, event.motion.y: 448
+2020-07-26 22:46:17.223 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 723, event.motion.y: 418
+2020-07-26 22:46:17.239 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 717, event.motion.y: 393
+2020-07-26 22:46:17.255 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 711, event.motion.y: 370
+2020-07-26 22:46:17.271 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 708, event.motion.y: 352
+2020-07-26 22:46:17.287 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 704, event.motion.y: 340
+2020-07-26 22:46:17.303 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 700, event.motion.y: 330
+2020-07-26 22:46:17.319 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 698, event.motion.y: 326
+2020-07-26 22:46:17.335 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 697, event.motion.y: 326
+2020-07-26 22:46:17.415 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 697, event.motion.y: 325
+2020-07-26 22:46:17.503 T:1882190560   DEBUG: CLibInputKeyboard::ProcessKey - using delay: 250ms repeat: 33ms
+2020-07-26 22:46:17.503 T:1645003488   DEBUG: Thread Timer start, auto delete: false
+2020-07-26 22:46:17.504 T:1902244704   DEBUG: Keyboard: scancode: 0x01, sym: 0x001b, unicode: 0x001b, modifier: 0x0
+2020-07-26 22:46:17.654 T:1645003488   DEBUG: Thread Timer 1645003488 terminating
+2020-07-26 22:46:17.674 T:1902244704   DEBUG: Keyboard: scancode: 0x01, sym: 0x001b, unicode: 0x001b, modifier: 0x0
+2020-07-26 22:46:17.674 T:1902244704   DEBUG: HandleKey: escape (0xf01b) pressed, action is PreviousMenu
+2020-07-26 22:46:17.674 T:1902244704   DEBUG: CGUIWindowManager::PreviousWindow: Deactivate
+2020-07-26 22:46:17.677 T:1902244704   DEBUG: ------ Window Deinit (Pointer.xml) ------
+2020-07-26 22:46:17.977 T:1902244704   DEBUG: ------ Window Deinit (MyVideoNav.xml) ------
+2020-07-26 22:46:17.978 T:1902244704   DEBUG: FreeVisualisation() done
+2020-07-26 22:46:18.004 T:1902244704   DEBUG: CGUIWindowManager::PreviousWindow: Activate new
+2020-07-26 22:46:18.004 T:1902244704   DEBUG: ------ Window Init (Home.xml) ------
+2020-07-26 22:46:18.004 T:1902244704   DEBUG: CDirectoryProvider[addons://]: refreshing..
+2020-07-26 22:46:18.005 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/video/]: refreshing..
+2020-07-26 22:46:18.005 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/audio/]: refreshing..
+2020-07-26 22:46:18.005 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/game/]: refreshing..
+2020-07-26 22:46:18.005 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/executable/]: refreshing..
+2020-07-26 22:46:18.005 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/image/]: refreshing..
+2020-07-26 22:46:18.006 T:1902244704   DEBUG: CDirectoryProvider[favourites://]: refreshing..
+2020-07-26 22:46:18.006 T:1902244704   DEBUG: CDirectoryProvider[addons://sources/game/]: refreshing..
+2020-07-26 22:46:18.058 T:1765016288   DEBUG: CAddonMgr::GetAvailableUpdates took 47 ms
+2020-07-26 22:46:18.079 T:1777722080   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.image_decode input port 320 output port 321 m_handle 0x5e348658
+2020-07-26 22:46:18.080 T:1777722080   DEBUG: COMXCoreComponent::AllocInputBuffers component(OMX.broadcom.image_decode) - port(320), nBufferCountMin(2), nBufferCountActual(2), nBufferSize(81920), nBufferAlignment(16)
+2020-07-26 22:46:18.085 T:1777722080   DEBUG: COMXCoreComponent::Initialize OMX.broadcom.egl_render input port 220 output port 221 m_handle 0x6e542e68
+2020-07-26 22:46:18.086 T:1777722080   DEBUG: COMXCoreComponent::UseEGLImage component(OMX.broadcom.egl_render) - port(221), nBufferCountMin(1), nBufferCountActual(1), nBufferSize(15360) nBufferAlignment(16)
+2020-07-26 22:46:18.110 T:1777722080   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.image_decode handle 0x5e348658
+2020-07-26 22:46:18.112 T:1777722080   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.egl_render handle 0x6e542e68
+2020-07-26 22:46:18.112 T:1777722080   DEBUG: DecodeJpegToTexture: decoded special://masterprofile/Thumbnails/6/6db44b0a.jpg 1280x720
+2020-07-26 22:46:18.135 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 696, event.motion.y: 325
+2020-07-26 22:46:18.151 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 689, event.motion.y: 323
+2020-07-26 22:46:18.167 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 672, event.motion.y: 318
+2020-07-26 22:46:18.177 T:1902244704   DEBUG: ------ Window Init (Pointer.xml) ------
+2020-07-26 22:46:18.183 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 643, event.motion.y: 309
+2020-07-26 22:46:18.199 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 616, event.motion.y: 300
+2020-07-26 22:46:18.215 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 599, event.motion.y: 292
+2020-07-26 22:46:18.231 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 586, event.motion.y: 282
+2020-07-26 22:46:18.247 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 574, event.motion.y: 272
+2020-07-26 22:46:18.263 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 561, event.motion.y: 262
+2020-07-26 22:46:18.279 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 549, event.motion.y: 255
+2020-07-26 22:46:18.295 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 538, event.motion.y: 249
+2020-07-26 22:46:18.311 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 526, event.motion.y: 242
+2020-07-26 22:46:18.327 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 512, event.motion.y: 234
+2020-07-26 22:46:18.343 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 490, event.motion.y: 221
+2020-07-26 22:46:18.359 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 450, event.motion.y: 200
+2020-07-26 22:46:18.375 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 407, event.motion.y: 178
+2020-07-26 22:46:18.391 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 357, event.motion.y: 151
+2020-07-26 22:46:18.407 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 311, event.motion.y: 127
+2020-07-26 22:46:18.423 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 275, event.motion.y: 112
+2020-07-26 22:46:18.439 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 253, event.motion.y: 107
+2020-07-26 22:46:18.455 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 240, event.motion.y: 106
+2020-07-26 22:46:18.471 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 233, event.motion.y: 103
+2020-07-26 22:46:18.487 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 226, event.motion.y: 103
+2020-07-26 22:46:18.503 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 216, event.motion.y: 103
+2020-07-26 22:46:18.519 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 207, event.motion.y: 103
+2020-07-26 22:46:18.535 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 194, event.motion.y: 104
+2020-07-26 22:46:18.551 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 177, event.motion.y: 105
+2020-07-26 22:46:18.567 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 160, event.motion.y: 106
+2020-07-26 22:46:18.583 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 142, event.motion.y: 107
+2020-07-26 22:46:18.599 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 121, event.motion.y: 106
+2020-07-26 22:46:18.615 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 98, event.motion.y: 106
+2020-07-26 22:46:18.631 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 78, event.motion.y: 107
+2020-07-26 22:46:18.647 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 71, event.motion.y: 110
+2020-07-26 22:46:18.663 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 69, event.motion.y: 111
+2020-07-26 22:46:18.807 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 69, event.motion.y: 112
+2020-07-26 22:46:18.823 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 69, event.motion.y: 114
+2020-07-26 22:46:18.839 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 70, event.motion.y: 115
+2020-07-26 22:46:18.855 T:1882190560   DEBUG: CLibInputPointer::ProcessButton - event.type: 4, event.button.button: 1, event.button.x: 70, event.button.y: 115
+2020-07-26 22:46:18.999 T:1882190560   DEBUG: CLibInputPointer::ProcessButton - event.type: 5, event.button.button: 1, event.button.x: 70, event.button.y: 115
+2020-07-26 22:46:19.004 T:1902244704   DEBUG: ProcessMouse: trying mouse action leftclick
+2020-07-26 22:46:19.004 T:1902244704   DEBUG: Activating window ID: 10111
+2020-07-26 22:46:19.005 T:1902244704   DEBUG: ------ Window Init (DialogButtonMenu.xml) ------
+2020-07-26 22:46:19.005 T:1902244704    INFO: Loading skin file: DialogButtonMenu.xml, load type: KEEP_IN_MEMORY
+2020-07-26 22:46:19.032 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 71, event.motion.y: 117
+2020-07-26 22:46:19.047 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 72, event.motion.y: 119
+2020-07-26 22:46:19.063 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 73, event.motion.y: 120
+2020-07-26 22:46:19.127 T:1882190560   DEBUG: Previous line repeats 2 times.
+2020-07-26 22:46:19.127 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 74, event.motion.y: 122
+2020-07-26 22:46:19.143 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 76, event.motion.y: 125
+2020-07-26 22:46:19.159 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 81, event.motion.y: 131
+2020-07-26 22:46:19.175 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 87, event.motion.y: 139
+2020-07-26 22:46:19.191 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 95, event.motion.y: 148
+2020-07-26 22:46:19.207 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 104, event.motion.y: 158
+2020-07-26 22:46:19.223 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 113, event.motion.y: 171
+2020-07-26 22:46:19.239 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 124, event.motion.y: 185
+2020-07-26 22:46:19.255 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 135, event.motion.y: 200
+2020-07-26 22:46:19.271 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 149, event.motion.y: 217
+2020-07-26 22:46:19.287 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 168, event.motion.y: 240
+2020-07-26 22:46:19.303 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 191, event.motion.y: 263
+2020-07-26 22:46:19.319 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 215, event.motion.y: 283
+2020-07-26 22:46:19.335 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 238, event.motion.y: 302
+2020-07-26 22:46:19.351 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 260, event.motion.y: 319
+2020-07-26 22:46:19.367 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 278, event.motion.y: 335
+2020-07-26 22:46:19.383 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 295, event.motion.y: 352
+2020-07-26 22:46:19.399 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 308, event.motion.y: 362
+2020-07-26 22:46:19.415 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 325, event.motion.y: 374
+2020-07-26 22:46:19.431 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 339, event.motion.y: 388
+2020-07-26 22:46:19.447 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 353, event.motion.y: 402
+2020-07-26 22:46:19.463 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 373, event.motion.y: 422
+2020-07-26 22:46:19.479 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 404, event.motion.y: 443
+2020-07-26 22:46:19.495 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 437, event.motion.y: 462
+2020-07-26 22:46:19.511 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 472, event.motion.y: 483
+2020-07-26 22:46:19.527 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 507, event.motion.y: 500
+2020-07-26 22:46:19.543 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 542, event.motion.y: 512
+2020-07-26 22:46:19.559 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 571, event.motion.y: 517
+2020-07-26 22:46:19.575 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 598, event.motion.y: 517
+2020-07-26 22:46:19.591 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 624, event.motion.y: 517
+2020-07-26 22:46:19.607 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 645, event.motion.y: 517
+2020-07-26 22:46:19.623 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 664, event.motion.y: 516
+2020-07-26 22:46:19.639 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 675, event.motion.y: 513
+2020-07-26 22:46:19.655 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 681, event.motion.y: 510
+2020-07-26 22:46:19.671 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 684, event.motion.y: 509
+2020-07-26 22:46:19.687 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 691, event.motion.y: 505
+2020-07-26 22:46:19.703 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 702, event.motion.y: 503
+2020-07-26 22:46:19.719 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 722, event.motion.y: 501
+2020-07-26 22:46:19.735 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 741, event.motion.y: 502
+2020-07-26 22:46:19.751 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 757, event.motion.y: 501
+2020-07-26 22:46:19.767 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 770, event.motion.y: 500
+2020-07-26 22:46:19.783 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 782, event.motion.y: 500
+2020-07-26 22:46:19.799 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 795, event.motion.y: 501
+2020-07-26 22:46:19.815 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 807, event.motion.y: 501
+2020-07-26 22:46:19.831 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 817, event.motion.y: 502
+2020-07-26 22:46:19.847 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 825, event.motion.y: 502
+2020-07-26 22:46:19.863 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 829, event.motion.y: 502
+2020-07-26 22:46:19.879 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 830, event.motion.y: 502
+2020-07-26 22:46:20.199 T:1882190560   DEBUG: Previous line repeats 7 times.
+2020-07-26 22:46:20.199 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 831, event.motion.y: 500
+2020-07-26 22:46:20.215 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 831, event.motion.y: 497
+2020-07-26 22:46:20.231 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 835, event.motion.y: 490
+2020-07-26 22:46:20.247 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 841, event.motion.y: 480
+2020-07-26 22:46:20.263 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 847, event.motion.y: 466
+2020-07-26 22:46:20.279 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 854, event.motion.y: 449
+2020-07-26 22:46:20.295 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 862, event.motion.y: 431
+2020-07-26 22:46:20.311 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 870, event.motion.y: 413
+2020-07-26 22:46:20.327 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 876, event.motion.y: 398
+2020-07-26 22:46:20.343 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 880, event.motion.y: 387
+2020-07-26 22:46:20.359 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 884, event.motion.y: 379
+2020-07-26 22:46:20.375 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 885, event.motion.y: 376
+2020-07-26 22:46:20.647 T:1882190560   DEBUG: Previous line repeats 2 times.
+2020-07-26 22:46:20.647 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 885, event.motion.y: 374
+2020-07-26 22:46:20.663 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 888, event.motion.y: 370
+2020-07-26 22:46:20.679 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 893, event.motion.y: 361
+2020-07-26 22:46:20.695 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 898, event.motion.y: 351
+2020-07-26 22:46:20.711 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 902, event.motion.y: 340
+2020-07-26 22:46:20.727 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 905, event.motion.y: 330
+2020-07-26 22:46:20.743 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 911, event.motion.y: 322
+2020-07-26 22:46:20.759 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 914, event.motion.y: 317
+2020-07-26 22:46:20.775 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 916, event.motion.y: 314
+2020-07-26 22:46:20.791 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 917, event.motion.y: 312
+2020-07-26 22:46:21.095 T:1882190560   DEBUG: CLibInputPointer::ProcessButton - event.type: 4, event.button.button: 1, event.button.x: 917, event.button.y: 312
+2020-07-26 22:46:21.223 T:1882190560   DEBUG: CLibInputPointer::ProcessButton - event.type: 5, event.button.button: 1, event.button.x: 917, event.button.y: 312
+2020-07-26 22:46:21.237 T:1902244704   DEBUG: ProcessMouse: trying mouse action leftclick
+2020-07-26 22:46:21.270 T:1902244704  NOTICE: Stopping player
+2020-07-26 22:46:21.271 T:1902244704  NOTICE: Storing total System Uptime
+2020-07-26 22:46:21.271 T:1902240480   DEBUG: CAnnouncementManager - Announcement: OnQuit from xbmc
+2020-07-26 22:46:21.271 T:1902240480   DEBUG: GOT ANNOUNCEMENT, type: 8, from xbmc, message OnQuit
+2020-07-26 22:46:21.271 T:1902244704  NOTICE: Saving settings
+2020-07-26 22:46:21.284 T:1902244704  NOTICE: Saving skin settings
+2020-07-26 22:46:21.288 T:1902244704  NOTICE: Stopping all
+2020-07-26 22:46:21.288 T:1688204000   DEBUG: Thread JobWorker 1688204000 terminating (autodelete)
+2020-07-26 22:46:21.288 T:1777722080   DEBUG: Thread JobWorker 1777722080 terminating (autodelete)
+2020-07-26 22:46:21.288 T:1765016288   DEBUG: Thread JobWorker 1765016288 terminating (autodelete)
+2020-07-26 22:46:21.289 T:1756623584   DEBUG: Thread JobWorker 1756623584 terminating (autodelete)
+2020-07-26 22:46:21.289 T:1902244704   DEBUG: NetworkMessage - Signaling network services to stop
+2020-07-26 22:46:21.289 T:1902244704  NOTICE: ES: Stopping event server
+2020-07-26 22:46:21.289 T:1902244704   DEBUG: NetworkMessage - Waiting for network services to stop
+2020-07-26 22:46:21.289 T:1902244704  NOTICE: stopping zeroconf publishing
+2020-07-26 22:46:21.351 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 916, event.motion.y: 312
+2020-07-26 22:46:21.367 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 915, event.motion.y: 312
+2020-07-26 22:46:21.383 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 911, event.motion.y: 312
+2020-07-26 22:46:21.399 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 905, event.motion.y: 312
+2020-07-26 22:46:21.415 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 895, event.motion.y: 311
+2020-07-26 22:46:21.431 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 881, event.motion.y: 310
+2020-07-26 22:46:21.447 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 866, event.motion.y: 308
+2020-07-26 22:46:21.463 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 853, event.motion.y: 306
+2020-07-26 22:46:21.479 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 842, event.motion.y: 306
+2020-07-26 22:46:21.495 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 834, event.motion.y: 306
+2020-07-26 22:46:21.511 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 825, event.motion.y: 306
+2020-07-26 22:46:21.527 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 814, event.motion.y: 306
+2020-07-26 22:46:21.543 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 800, event.motion.y: 306
+2020-07-26 22:46:21.559 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 784, event.motion.y: 306
+2020-07-26 22:46:21.575 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 767, event.motion.y: 306
+2020-07-26 22:46:21.591 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 749, event.motion.y: 304
+2020-07-26 22:46:21.607 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 734, event.motion.y: 301
+2020-07-26 22:46:21.623 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 721, event.motion.y: 300
+2020-07-26 22:46:21.639 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 714, event.motion.y: 299
+2020-07-26 22:46:21.655 T:1882190560   DEBUG: CLibInputPointer::ProcessMotion - event.type: 3, event.motion.x: 711, event.motion.y: 299
+2020-07-26 22:46:22.173 T:1671418592  NOTICE: ES: UDP Event server stopped
+2020-07-26 22:46:22.174 T:1671418592   DEBUG: Thread EventServer 1671418592 terminating
+2020-07-26 22:46:22.181 T:1663025888   DEBUG: Thread TCPServer 1663025888 terminating
+2020-07-26 22:46:22.181 T:1902244704  NOTICE: stop dvd detect media
+2020-07-26 22:46:22.182 T:1902244704   DEBUG: CServiceAddonManager: stopping plugin.video.netflix.
+2020-07-26 22:46:22.182 T:1902244704    INFO: CServiceAddonManager: failed to stop plugin.video.netflix (may have ended)
+2020-07-26 22:46:22.182 T:1902244704   DEBUG: CServiceAddonManager: stopping service.xbmc.versioncheck.
+2020-07-26 22:46:22.182 T:1902244704    INFO: CServiceAddonManager: failed to stop service.xbmc.versioncheck (may have ended)
+2020-07-26 22:46:22.182 T:1871704800   DEBUG: Thread ActiveAE 1871704800 terminating
+2020-07-26 22:46:22.183 T:1861219040   DEBUG: Thread AESink 1861219040 terminating
+2020-07-26 22:46:22.281 T:1902244704   DEBUG: CAESinkPi:Drain delay:97ms now:0ms
+2020-07-26 22:46:22.281 T:1902244704   DEBUG: CAESinkPi:Deinitialize
+2020-07-26 22:46:22.282 T:1902244704   DEBUG: CAESinkPi:SetAudioProps hdmi_stream_channels 0 hdmi_channel_map 00000000
+2020-07-26 22:46:22.289 T:1902244704   DEBUG: COMXCoreComponent::Deinitialize : OMX.broadcom.audio_render handle 0x6e502238
+2020-07-26 22:46:22.290 T:1902244704  NOTICE: Application stopped
+2020-07-26 22:46:22.490 T:1902244704  NOTICE: XBApplicationEx: destroying...
+2020-07-26 22:46:22.491 T:1713382112   DEBUG: Thread PeripEventScanner 1713382112 terminating
+2020-07-26 22:46:22.548 T:1738560224   DEBUG: Thread PeripBusUSBUdev 1738560224 terminating
+2020-07-26 22:46:23.481 T:1654633184   DEBUG: Thread CECAdapterUpdate 1654633184 terminating
+2020-07-26 22:46:24.321 T:1623192288   DEBUG: Process - CEC adapter processor thread ended
+2020-07-26 22:46:24.321 T:1623192288   DEBUG: Thread CECAdapter 1623192288 terminating
+2020-07-26 22:46:24.830 T:1721774816   DEBUG: Thread PeripBusAddon 1721774816 terminating
+2020-07-26 22:46:24.999 T:1902244704  NOTICE: unload skin
+2020-07-26 22:46:24.999 T:1902244704    INFO: Unloading old skin ...
+2020-07-26 22:46:25.003 T:1902244704   DEBUG: ------ Window Deinit (Pointer.xml) ------
+2020-07-26 22:46:25.007 T:1902244704   DEBUG: ------ Window Deinit () ------
+2020-07-26 22:46:25.007 T:1902244704   DEBUG: ------ Window Deinit (Home.xml) ------
+2020-07-26 22:46:25.008 T:1902244704   DEBUG: FreeVisualisation() done
+2020-07-26 22:46:25.029 T:1902244704   DEBUG: Previous line repeats 2 times.
+2020-07-26 22:46:25.029 T:1902244704   DEBUG: ------ Window Deinit (DialogButtonMenu.xml) ------
+2020-07-26 22:46:25.042 T:1902244704   DEBUG: CloseBundle - Closed bundle
+2020-07-26 22:46:25.067 T:1590686432   DEBUG: onExecutionDone(2, /home/pi/.kodi/addons/plugin.video.netflix/addon.py)
+2020-07-26 22:46:25.098 T:1590686432    INFO: Python interpreter interrupted by user
+2020-07-26 22:46:25.098 T:1590686432   DEBUG: Thread LanguageInvoker 1590686432 terminating
+2020-07-26 22:46:25.098 T:1902244704   DEBUG: CPythonInvoker(2, /home/pi/.kodi/addons/plugin.video.netflix/addon.py): script termination took 31ms
+2020-07-26 22:46:25.125 T:1902244704  NOTICE: unload sections
+2020-07-26 22:46:25.129 T:1902240480   DEBUG: CAnnouncementManager - Announcement: OnClear from xbmc
+2020-07-26 22:46:25.130 T:1902244704   DEBUG: LogindUPowerSyscall - delay lock sleep released
+2020-07-26 22:46:25.132 T:1704989408   DEBUG: Thread Timer 1704989408 terminating
+2020-07-26 22:46:25.135 T:1902244704    INFO: ADDON: cpluff: 'An unreleased information object was encountered at address 0x3bc7448 with reference count 1 when destroying the associated plug-in context. Not releasing the object.'
+2020-07-26 22:46:25.136 T:1902244704    INFO: ADDON: cpluff: 'An unreleased information object was encountered at address 0x3b1dbc8 with reference count 1 when destroying the associated plug-in context. Not releasing the object.'
+2020-07-26 22:46:25.136 T:1902244704    INFO: ADDON: cpluff: 'An unreleased information object was encountered at address 0x3bbce58 with reference count 1 when destroying the associated plug-in context. Not releasing the object.'
+2020-07-26 22:46:25.136 T:1902244704    INFO: ADDON: cpluff: 'An unreleased information object was encountered at address 0x3bc2020 with reference count 1 when destroying the associated plug-in context. Not releasing the object.'
+2020-07-26 22:46:25.136 T:1902244704    INFO: ADDON: cpluff: 'An unreleased information object was encountered at address 0x3b1d960 with reference count 1 when destroying the associated plug-in context. Not releasing the object.'
+2020-07-26 22:46:25.136 T:1902244704    INFO: ADDON: cpluff: 'An unreleased information object was encountered at address 0x3b05da0 with reference count 1 when destroying the associated plug-in context. Not releasing the object.'
+2020-07-26 22:46:25.136 T:1902244704    INFO: ADDON: cpluff: 'An unreleased information object was encountered at address 0x3bd6870 with reference count 1 when destroying the associated plug-in context. Not releasing the object.'
+2020-07-26 22:46:25.136 T:1902244704    INFO: ADDON: cpluff: 'An unreleased information object was encountered at address 0x3bc49f8 with reference count 1 when destroying the associated plug-in context. Not releasing the object.'
+2020-07-26 22:46:25.136 T:1902244704    INFO: ADDON: cpluff: 'An unreleased information object was encountered at address 0x3bb9778 with reference count 1 when destroying the associated plug-in context. Not releasing the object.'
+2020-07-26 22:46:25.136 T:1902244704    INFO: ADDON: cpluff: 'An unreleased information object was encountered at address 0x3afc978 with reference count 1 when destroying the associated plug-in context. Not releasing the object.'
+2020-07-26 22:46:25.136 T:1902244704    INFO: ADDON: cpluff: 'An unreleased information object was encountered at address 0x3afc378 with reference count 1 when destroying the associated plug-in context. Not releasing the object.'
+2020-07-26 22:46:25.137 T:1902244704   DEBUG: object 0 --> 0 instances
+2020-07-26 22:46:25.137 T:1902244704   DEBUG: object 1 --> 0 instances
+2020-07-26 22:46:25.137 T:1902244704   DEBUG: object 2 --> 0 instances
+2020-07-26 22:46:25.137 T:1902244704   DEBUG: object 3 --> 0 instances
+2020-07-26 22:46:25.137 T:1902244704   DEBUG: object 4 --> 0 instances
+2020-07-26 22:46:25.137 T:1902244704   DEBUG: object 5 --> 0 instances
+2020-07-26 22:46:25.137 T:1902244704   DEBUG: object 6 --> 0 instances
+2020-07-26 22:46:25.137 T:1902244704   DEBUG: object 7 --> 0 instances
+2020-07-26 22:46:25.137 T:1902244704   DEBUG: object 8 --> 0 instances
+2020-07-26 22:46:25.138 T:1902244704   DEBUG: object 9 --> 0 instances
+2020-07-26 22:46:25.274 T:1882190560   DEBUG: Thread libinput 1882190560 terminating
+2020-07-26 22:46:25.806 T:1892676320   DEBUG: Thread Lirc 1892676320 terminating
+2020-07-26 22:46:25.818 T:1902240480   DEBUG: Thread Announce 1902240480 terminating
+2020-07-26 22:46:25.831 T:1902244704  NOTICE: XBApplicationEx: application stopped!
+2020-07-26 22:46:25.832 T:1787798240   DEBUG: Thread CRBPWorker 1787798240 terminating
